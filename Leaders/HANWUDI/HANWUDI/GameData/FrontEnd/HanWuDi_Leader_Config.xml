@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Author: weiheL -->
+<!-- DateCreated: 01/21/20 22:00:13 Tue -->
+<GameData>
+  <Players>
+    <Row
+      CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_DESCRIPTION"
+      CivilizationAbilityIcon="ICON_CIVILIZATION_CHINA"
+      CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_NAME"
+      CivilizationIcon="ICON_CIVILIZATION_CHINA"
+      CivilizationName="LOC_CIVILIZATION_CHINA_NAME"
+      CivilizationType="CIVILIZATION_CHINA"
+      LeaderAbilityDescription="LOC_TRAIT_LEADER_HANWUDI_XIAOWU_EMPEROR_DESCRIPTION" 
+      LeaderAbilityIcon="ICON_LEADER_HANWUDI" 
+      LeaderAbilityName="LOC_TRAIT_LEADER_HANWUDI_XIAOWU_EMPEROR_NAME" 
+      LeaderIcon="ICON_LEADER_HANWUDI" 
+      LeaderName="LOC_LEADER_HANWUDI_NAME"
+      LeaderType="LEADER_HANWUDI" 
+      Portrait="IMG_LEADER_HANWUDI_PORTRAIT"/>
+    <!-- Expansion 1 Support -->
+    <Row Domain="Players:Expansion1_Players"
+      CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_EXPANSION1_DESCRIPTION"
+      CivilizationAbilityIcon="ICON_CIVILIZATION_CHINA"
+      CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_NAME"
+      CivilizationIcon="ICON_CIVILIZATION_CHINA"
+      CivilizationName="LOC_CIVILIZATION_CHINA_NAME"
+      CivilizationType="CIVILIZATION_CHINA"
+      LeaderAbilityDescription="LOC_TRAIT_LEADER_HANWUDI_XIAOWU_EMPEROR_DESCRIPTION" 
+      LeaderAbilityIcon="ICON_LEADER_HANWUDI" 
+      LeaderAbilityName="LOC_TRAIT_LEADER_HANWUDI_XIAOWU_EMPEROR_NAME" 
+      LeaderIcon="ICON_LEADER_HANWUDI" 
+      LeaderName="LOC_LEADER_HANWUDI_NAME"
+      LeaderType="LEADER_HANWUDI" 
+      Portrait=""/> <!--IMG_LEADER_HANWUDI_PORTRAIT-->
+    <!-- Expansion 2 Support -->
+    <Row Domain="Players:Expansion2_Players"
+      CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_EXPANSION2_DESCRIPTION"
+      CivilizationAbilityIcon="ICON_CIVILIZATION_CHINA"
+      CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_NAME"
+      CivilizationIcon="ICON_CIVILIZATION_CHINA"
+      CivilizationName="LOC_CIVILIZATION_CHINA_NAME"
+      CivilizationType="CIVILIZATION_CHINA"
+      LeaderAbilityDescription="LOC_TRAIT_LEADER_HANWUDI_XIAOWU_EMPEROR_DESCRIPTION" 
+      LeaderAbilityIcon="ICON_LEADER_HANWUDI" 
+      LeaderAbilityName="LOC_TRAIT_LEADER_HANWUDI_XIAOWU_EMPEROR_NAME"
+      LeaderIcon="ICON_LEADER_HANWUDI" 
+      LeaderName="LOC_LEADER_HANWUDI_NAME" 
+      LeaderType="LEADER_HANWUDI"
+      Portrait=""/>
+    <!--IMG_LEADER_HANWUDI_PORTRAIT-->
+  </Players>
+<!--CivilizationType ="CIVILIZATION_CHINA"-->
+  <PlayerItems>
+    <Row
+      CivilizationType ="CIVILIZATION_CHINA"
+      LeaderType="LEADER_HANWUDI"
+        Type="BUILDING_TAIXUE"
+        Name="LOC_BUILDING_TAIXUE_NAME"
+        Description="LOC_BUILDING_TAIXUE_DESCRIPTION"
+        Icon="ICON_BUILDING_TAIXUE"
+        SortIndex="1"/>
+      <Row 
+        CivilizationType ="CIVILIZATION_CHINA"
+        LeaderType="LEADER_HANWUDI"
+        Type="UNIT_HAN_WUGANCHE"
+        Name="LOC_UNIT_HAN_WUGANCHE_NAME"
+        Description="LOC_UNIT_HAN_WUGANCHE_DESCRIPTION"
+        Icon="ICON_UNIT_HAN_WUGANCHE"
+        SortIndex="2"/>
+    <!-- Expansion 1 Support -->
+    <Row
+        Domain="Players:Expansion1_Players"
+        CivilizationType ="CIVILIZATION_CHINA"
+        LeaderType="LEADER_HANWUDI"
+        Type="BUILDING_TAIXUE"
+        Name="LOC_BUILDING_TAIXUE_NAME"
+        Description="LOC_BUILDING_TAIXUE_DESCRIPTION"
+        Icon="ICON_BUILDING_TAIXUE"
+        SortIndex="1"/>
+    <Row
+        Domain="Players:Expansion1_Players"
+        CivilizationType ="CIVILIZATION_CHINA"
+        LeaderType="LEADER_HANWUDI"
+        Type="UNIT_HAN_WUGANCHE"
+        Name="LOC_UNIT_HAN_WUGANCHE_NAME"
+        Description="LOC_UNIT_HAN_WUGANCHE_DESCRIPTION"
+        Icon="ICON_UNIT_HAN_WUGANCHE"
+        SortIndex="2"/>
+    <!-- Expansion 2 Support -->
+    <Row
+        Domain="Players:Expansion2_Players"
+        CivilizationType ="CIVILIZATION_CHINA"
+        LeaderType="LEADER_HANWUDI"
+        Type="BUILDING_TAIXUE"
+        Name="LOC_BUILDING_TAIXUE_NAME"
+        Description="LOC_BUILDING_TAIXUE_DESCRIPTION"
+        Icon="ICON_BUILDING_TAIXUE"
+        SortIndex="1"/>
+    <Row
+        Domain="Players:Expansion2_Players"
+        CivilizationType ="CIVILIZATION_CHINA"
+        LeaderType="LEADER_HANWUDI"
+        Type="UNIT_HAN_WUGANCHE"
+        Name="LOC_UNIT_HAN_WUGANCHE_NAME"
+        Description="LOC_UNIT_HAN_WUGANCHE_DESCRIPTION"
+        Icon="ICON_UNIT_HAN_WUGANCHE"
+        SortIndex="2"/>
+  </PlayerItems>
+
+  
+</GameData>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <!-- Almost all gameplay types should first be added to the types table. -->
+  <!-- This serves as a central way to reference any type -->
+  <!-- 版本：v1.0
+       时间：2020年1月24日
+       作者：weiheL
+       V1.1 2020年1月26日 更新：改为heavy cavalry类，新增CLASS_WUGANCHE，增加单位技能 
+       v1.2 2020年1月27日 更新：将UNIT_WUGANCHE改为UNIT_HAN_WUGANCHE
+  -->
+  <Types>
+    <Row Type="UNIT_HAN_WUGANCHE" Kind="KIND_UNIT" />
+    <Row Type="ABILITY_WUGANCHE" Kind="KIND_ABILITY"/>
+  </Types>
+  
+  <Tags>
+    <Row Tag="CLASS_WUGANCHE" Vocabulary="ABILITY_CLASS"/>
+  </Tags>
+  
+  <TypeTags>
+    <Row Type="UNIT_HAN_WUGANCHE" Tag="CLASS_HEAVY_CAVALRY"/>
+    <Row Type="UNIT_HAN_WUGANCHE" Tag="CLASS_WUGANCHE"/>
+    <Row Type="ABILITY_WUGANCHE" Tag="CLASS_WUGANCHE"/>
+  </TypeTags>
+  
+  <UnitAiInfos>
+    <Row UnitType="UNIT_HAN_WUGANCHE" AiType="UNITAI_COMBAT"/>
+    <Row UnitType="UNIT_HAN_WUGANCHE" AiType="UNITAI_EXPLORE"/>
+    <Row UnitType="UNIT_HAN_WUGANCHE" AiType="UNITTYPE_MELEE"/>
+    <Row UnitType="UNIT_HAN_WUGANCHE" AiType="UNITTYPE_LAND_COMBAT"/>
+  </UnitAiInfos>
+
+  <UnitReplaces>
+    <Row CivUniqueUnitType="UNIT_HAN_WUGANCHE" ReplacesUnitType="UNIT_HEAVY_CHARIOT"/>
+  </UnitReplaces>
+  
+
+  <!-- Define the actual unit here. For examples of additional properties and values, look at Units.xml in /Base/Assets/Gameplay/Data/-->
+  <Units>
+    <Row UnitType="UNIT_HAN_WUGANCHE"
+         Cost="65"
+         Maintenance="1"
+         BaseMoves="2"
+         BaseSightRange="2"
+         ZoneOfControl="true"
+         Domain="DOMAIN_LAND"
+         Combat="25"
+         FormationClass="FORMATION_CLASS_LAND_COMBAT"
+         PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
+         AdvisorType="ADVISOR_CONQUEST"
+         Name="LOC_UNIT_HAN_WUGANCHE_NAME"
+         Description="LOC_UNIT_HAN_WUGANCHE_DESCRIPTION"
+         PurchaseYield="YIELD_GOLD"
+         MandatoryObsoleteTech="TECH_COMBUSTION"
+         PrereqTech="TECH_THE_WHEEL"
+         TraitType="TRAIT_CIVILIZATION_UNIT_HAN_WUGANCHE" />
+  </Units>
+
+  <UnitUpgrades>
+    <Row Unit="UNIT_HAN_WUGANCHE" UpgradeUnit="UNIT_KNIGHT"/>
+  </UnitUpgrades>
+
+  <UnitAbilities>
+    <Row UnitAbilityType="ABILITY_WUGANCHE" Name="LOC_ABILITY_WUGANCHE_NAME" Description="LOC_ABILITY_WUGANCHE_DESCRIPTION"/>
+  </UnitAbilities>
+
+  <ModifierStrings>
+    <Row ModifierId="WUGANCHE_NEIGHBOR_COMBAT_MODIFIER" Context="Preview" Text="LOC_ABILITY_WUGANCHE_NEIGHBOR_COMBAT_MODIFIER_DESCRIPTION"/>
+  </ModifierStrings>
+  
+</GameData>

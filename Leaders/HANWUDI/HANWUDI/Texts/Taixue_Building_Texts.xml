@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Taixue_Building_Texts -->
+<!-- Author: 57371 -->
+<!-- DateCreated: 1/25/2020 9:31:25 PM -->
+<GameData>
+  <LocalizedText>
+    <!-- The name of the unit. -->
+    <Row Tag="LOC_BUILDING_TAIXUE_NAME" Language="zh_Hans_CN">
+      <Text>太学</Text>
+    </Row>
+
+    <!-- It's description. -->
+    <Row Tag="LOC_BUILDING_TAIXUE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>太学是中国古代的国立最高学府，是世界上最早的大学，比西方早了1000多年。代替大学，汉武帝在解锁学院区域的同时也可以解锁太学。</Text>
+    </Row>
+  </LocalizedText>
+</GameData>

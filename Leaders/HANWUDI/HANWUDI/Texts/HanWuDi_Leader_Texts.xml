@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- HanWuDi_Texts -->
+<!-- Author: 57371 -->
+<!-- DateCreated: 1/23/2020 10:15:11 PM -->
+<GameData>
+  <LocalizedText>
+    <Row Tag="LOC_LEADER_HANWUDI_NAME" Language="en_US">
+      <Text>Emperor Hanwu</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_HANWUDI_QUOTE" Language="en_US">
+      <Text>Emperor Wu of the Han Dynasty Liu Che, the seventh emperor of the Western Han Dynasty, a statesman and strategist, ascended the throne at the age of sixteen. In order to consolidate the imperial power, the central government set up China and the DPRK, in order to strengthen the supervision of the princely kings and local senior officials, a thirteen state department thorn history was set up in the local area, so that the six hundred stone level thorn history inspector had a 2,000 stone level county. Initiate an inspection system to select talents, issue gratitude orders, resolve kingdom powers, and return salt iron and coinage to the central government, "dismiss 100 schools, respect Confucianism alone," and end the pre-Qin period, "Baijiashufang" situation. During the Emperor Han Wudi's time, Yiyi expanded the country, spreading the country's prestige, joining North Korea in the east, swallowing Baiyue in the south, Dawan in the west, and breaking through the Xiongnu in the north, which established the basic scope of the Han dynasty and created the prosperous era of the Han Dynasty. In addition, the Silk Road was opened, and pioneering initiatives in Luntai, Quli Tuntian, etc., juxtaposed the ambassador captain, established the year number, promulgated the Taichu calendar, and prospered Taixue, which had a profound impact.</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_HANWUDI" Language="en_US">
+      <Text>Emperor Hanwu, you ascended the throne when you were sixteen. Consolidate the imperial power, create a system of selection and selection of talents, issue gratitude orders, sell salt and iron officials, "dismiss 100 schools, respect Confucianism," expand the soil, expand the country's prestige, join North Korea in the east, swallow Baiyue in the south, and enlist the West Wan, breaking through the Huns in the north, laid the basic scope of China, opened the Silk Road, promoted Taixue, and created the prosperous era of the Han Dynasty.</Text>
+    </Row>
+    
+    
+    <Row Tag="LOC_LEADER_HANWUDI_NAME" Language="zh_Hans_CN">
+      <Text>汉武大帝</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_HANWUDI_QUOTE" Language="zh_Hans_CN">
+      <Text>汉武大帝刘彻，西汉第七位皇帝，政治家、战略家，十六岁时登基。为巩固皇权，中央设置中朝，为加强对诸侯王和地方高官的监察，在地方设置十三州部刺史，令六百石级别的刺史督察二千石级别的郡国守相。开创察举制选拔人才，颁行推恩令，解决王国势力，并将盐铁和铸币权收归中央，“罢黜百家，独尊儒术”，结束先秦以来“师异道，人异论，百家殊方”的局面。汉武帝时期攘夷拓土，国威远扬，东并朝鲜，南吞百越，西征大宛，北破匈奴，奠定了汉地的基本范围，开创了汉武盛世的局面。另有开辟丝绸之路，在轮台、渠犁屯田等创举，并置使者校尉，建立年号、颁布太初历、兴太学，影响极为深远。</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_HANWUDI" Language="zh_Hans_CN">
+      <Text>汉武大帝，您十六岁时登基。巩固皇权，开创察举制选拔人才，颁行推恩令，盐铁官卖，“罢黜百家，独尊儒术”，攘夷拓土，国威远扬，东并朝鲜，南吞百越，西征大宛，北破匈奴，奠定了中国的基本范围，开丝路、兴太学，开创了汉武盛世的局面。</Text>
+    </Row>
+
+    <Replace Tag="LOC_TRAIT_LEADER_HANWUDI_XIAOWU_EMPEROR_NAME" Language="zh_Hans_CN">
+      <Text>孝武皇帝</Text>
+    </Replace>
+    <Replace Tag="LOC_TRAIT_LEADER_HANWUDI_XIAOWU_EMPEROR_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>犯我大汉天威者，虽远必诛！击杀单位获得+4 [ICON_GreatGeneral] 大将军点数，解锁学院区域的同时解锁太学（代替大学）。</Text>
+    </Replace>
+
+    <Replace Tag="LOC_AGENDA_DAHANTIANWEI_NAME" Language="zh_Hans_CN">
+      <Text>大汉天威</Text>
+    </Replace>
+    <Replace Tag="LOC_AGENDA_DAHANTIANWEI_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>宣布正式战争后10回合内+5战斗力，+2移动力。</Text>
+    </Replace>
+    <Replace Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Language="zh_Hans_CN">
+      <Text>犯我大汉天威者，虽远必诛！</Text>
+    </Replace>
+    
+  </LocalizedText>
+</GameData>

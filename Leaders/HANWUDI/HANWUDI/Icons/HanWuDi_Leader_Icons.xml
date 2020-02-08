@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- HanWuDi_Leader_Icons -->
+<!-- Author: weiheL -->
+<!-- DateCreated: 1/22/2020 11:56:12 AM -->
+<GameData>
+  <IconTextureAtlases>
+    <Row Name="ATLAS_LEADER_HANWUDI" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_HANWUDI_256.dds"/>
+    <Row Name="ATLAS_LEADER_HANWUDI" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_HANWUDI_80.dds"/>
+    <Row Name="ATLAS_LEADER_HANWUDI" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_HANWUDI_64.dds"/>
+    <Row Name="ATLAS_LEADER_HANWUDI" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_HANWUDI_55.dds"/>
+    <Row Name="ATLAS_LEADER_HANWUDI" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_HANWUDI_50.dds"/>
+    <Row Name="ATLAS_LEADER_HANWUDI" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_HANWUDI_48.dds"/>
+    <Row Name="ATLAS_LEADER_HANWUDI" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_HANWUDI_45.dds"/>
+    <Row Name="ATLAS_LEADER_HANWUDI" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_HANWUDI_32.dds"/>
+  </IconTextureAtlases>
+
+
+  <IconDefinitions>
+    <Row Name="ICON_LEADER_HANWUDI" Atlas="ATLAS_LEADER_HANWUDI" index="0"/>
+  </IconDefinitions>
+
+
+</GameData>
+

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Leader_HanWuDi</Name>
+    <Guid>3de967b4-e129-49f2-8b0a-04ec67d02c89</Guid>
+    <ProjectGuid>76f28e3d-da78-4654-8cbb-f74fee67a6a7</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>This is a mod of HanWuDi, Liuce, a well know Chinese emperor.</Teaser>
+    <Description>This is a mod of HanWuDi, Liuce, a well know Chinese emperor.</Description>
+    <Authors>weiheL</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+    <AssemblyName>HANWUDI</AssemblyName>
+    <RootNamespace>HANWUDI</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="data"><File>GameData/FrontEnd/HanWuDi_Leader_Config.xml</File></UpdateDatabase><UpdateText id="text"><File>Texts/HanWuDi_Leader_Texts.xml</File><File>Texts/Wuganche_Unit_Texts.xml</File><File>Texts/Taixue_Building_Texts.xml</File></UpdateText><UpdateIcons id="Icon"><File>Icons/HanWuDi_Leader_Icons.xml</File><File>Icons/Taixue_Building_Icons.xml</File><File>Icons/Wuganche_Unit_Icons.xml</File></UpdateIcons><UpdateArt id="art"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Data"><Criteria>LeaderCriteria</Criteria><File>GameData/InGame/HanWuDi_Leader_Data.xml</File><File>GameData/InGame/Wuganche_Unit_Data.xml</File><File>GameData/InGame/Taixue_Buildings_Data.xml</File><File>GameData/InGame/Wuganche_Unit_Ability.sql</File><File>GameData/InGame/Hanwudi_Leader_Ability.sql</File></UpdateDatabase><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="Icons"><File>Icons/HanWuDi_Leader_Icons.xml</File><File>Icons/Wuganche_Unit_Icons.xml</File><File>Icons/Taixue_Building_Icons.xml</File></UpdateIcons><UpdateText id="Text"><File>Texts/Wuganche_Unit_Texts.xml</File><File>Texts/Taixue_Building_Texts.xml</File><File>Texts/HanWuDi_Leader_Texts.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>Players:StandardPlayers::LEADER_HANWUDI,Players:Expansion1_Players::LEADER_HANWUDI,Players:Expansion2_Players::LEADER_HANWUDI</LeaderPlayable></Criteria><Criteria id="LeaderCriteria_Expansion1"><LeaderPlayable>Players:Expansion1_Players::LEADER_HANWUDI</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse></Criteria><Criteria id="LeaderCriteria_Expansion2"><LeaderPlayable>Players:Expansion2_Players::LEADER_HANWUDI</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Artdefs\Buildings.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Artdefs\FallbackLeaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Artdefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="GameData\FrontEnd\HanWuDi_Leader_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="GameData\InGame\Hanwudi_Leader_Ability.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="GameData\InGame\HanWuDi_Leader_Data.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="GameData\InGame\Taixue_Buildings_Data.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="GameData\InGame\Wuganche_Unit_Ability.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="GameData\InGame\Wuganche_Unit_Data.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HANWUDI.Art.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons\HanWuDi_Leader_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons\Taixue_Building_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons\Wuganche_Unit_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HANWUDI.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Texts\HanWuDi_Leader_Texts.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Texts\Taixue_Building_Texts.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Texts\Wuganche_Unit_Texts.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GameData" />
+    <Folder Include="GameData\FrontEnd" />
+    <Folder Include="GameData\InGame" />
+    <Folder Include="Icons" />
+    <Folder Include="Artdefs" />
+    <Folder Include="Texts" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

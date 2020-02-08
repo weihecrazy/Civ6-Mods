@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Taixue_Building_Icons -->
+<!-- Author: 57371 -->
+<!-- DateCreated: 1/25/2020 9:09:01 PM -->
+<GameData>
+  <!-- For simplicity sake, we're going to reuse existing icons. -->
+  <IconDefinitions>
+    <!-- This is the  icon for the building. -->
+    <Row Name="ICON_BUILDING_TAIXUE" Atlas="ICON_ATLAS_BUILDINGS" Index="18"/>
+
+    <!-- This is the FOW of the building. -->
+    <Row Name="ICON_BUILDING_TAIXUE_FOW" Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="18"/>
+
+  </IconDefinitions>
+</GameData>

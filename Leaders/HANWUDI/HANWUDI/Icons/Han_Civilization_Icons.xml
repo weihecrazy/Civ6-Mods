@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Han_Civilization_Icons -->
+<!-- Author: weiheL -->
+<!-- DateCreated: 1/22/2020 11:56:12 AM -->
+<GameData>
+  <IconTextureAtlases>
+    <Row Name="ATLAS_CIVILIZATION_HAN" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_HAN_256.dds"/>
+    <Row Name="ATLAS_CIVILIZATION_HAN" IconSize="200" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_HAN_200.dds"/>
+    <Row Name="ATLAS_CIVILIZATION_HAN" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_HAN_128.dds"/>
+    <Row Name="ATLAS_CIVILIZATION_HAN" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_HAN_80.dds"/>
+    <Row Name="ATLAS_CIVILIZATION_HAN" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_HAN_64.dds"/>
+    <Row Name="ATLAS_CIVILIZATION_HAN" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_HAN_50.dds"/>
+    <Row Name="ATLAS_CIVILIZATION_HAN" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_HAN_48.dds"/>
+    <Row Name="ATLAS_CIVILIZATION_HAN" IconSize="44" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_HAN_44.dds"/>
+    <Row Name="ATLAS_CIVILIZATION_HAN" IconSize="36" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_HAN_36.dds"/>
+    <Row Name="ATLAS_CIVILIZATION_HAN" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_HAN_32.dds"/>
+    <Row Name="ATLAS_CIVILIZATION_HAN" IconSize="30" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_HAN_30.dds"/>
+    <Row Name="ATLAS_CIVILIZATION_HAN" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_HAN_22.dds"/>
+  </IconTextureAtlases>
+
+
+  <IconDefinitions>
+    <Row Name="" Atlas="ATLAS_CIVILIZATION_HAN" index="0"/>
+  </IconDefinitions>
+
+
+</GameData>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Author: weiheL -->
+<!-- DateCreated: 01/21/20 22:00:13 Tue -->
+<!--
+  2020年1月25日 v1.0 更新：增加孝武皇帝的text
+-->
+<GameData>
+  <Types>
+    <Row Type="LEADER_HANWUDI" Kind="KIND_LEADER"/>
+    <Row Type="TRAIT_AGENDA_HANWUDI" Kind="KIND_TRAIT"/>
+    <Row Type="TRAIT_LEADER_HANWUDI_XIAOWU_EMPEROR" Kind="KIND_TRAIT"/>
+    <Row Type="TRAIT_CIVILIZATION_UNIT_HAN_WUGANCHE" Kind="KIND_TRAIT"/>
+    <Row Type="TRAIT_CIVILIZATION_BUILDING_TAIXUE" Kind="KIND_TRAIT"/>
+    <Row Type="TRAIT_AGENDA_DAHANTIANWEI" Kind="KIND_TRAIT"/>
+  </Types>
+
+  <Leaders>
+    <Row LeaderType="LEADER_HANWUDI" Name="LOC_LEADER_HANWUDI_NAME" InheritFrom="LEADER_DEFAULT" Sex="Male" SceneLayers="4"/>
+  </Leaders>
+
+  <LeaderQuotes>
+    <Row LeaderType="LEADER_HANWUDI" Quote="LOC_LEADER_HANWUDI_QUOTE"/>
+  </LeaderQuotes>
+
+  <Traits>
+    <Row TraitType="TRAIT_AGENDA_HANWUDI" Name="LOC_TRAIT_AGENDA_HANWUDI_NAME" Description="LOC_TRAIT_AGENDA_HANWUDI_DESCRIPTION"/>
+    <Row TraitType="TRAIT_LEADER_HANWUDI_XIAOWU_EMPEROR" Name="LOC_TRAIT_LEADER_HANWUDI_XIAOWU_EMPEROR_NAME" Description="LOC_TRAIT_LEADER_HANWUDI_XIAOWU_EMPEROR_DESCRIPTION"/>
+    <Row TraitType="TRAIT_CIVILIZATION_UNIT_HAN_WUGANCHE" Name="TRAIT_CIVILIZATION_UNIT_HAN_WUGANCHE_NAME"/>
+    <Row TraitType="TRAIT_CIVILIZATION_BUILDING_TAIXUE" Name="TRAIT_CIVILIZATION_BUILDING_TAIXUE_NAME"/>
+    <Row TraitType="TRAIT_AGENDA_DAHANTIANWEI" Name="TRAIT_AGENDA_DAHANTIANWEI_NAME"/>
+  </Traits>
+  
+  <LeaderTraits>
+    <Row LeaderType="LEADER_HANWUDI" TraitType="TRAIT_LEADER_HANWUDI_XIAOWU_EMPEROR"/>
+    <Row LeaderType="LEADER_HANWUDI" TraitType="TRAIT_CIVILIZATION_UNIT_HAN_WUGANCHE"/>
+    <Row LeaderType="LEADER_HANWUDI" TraitType="TRAIT_CIVILIZATION_BUILDING_TAIXUE"/>
+  </LeaderTraits>
+
+  <Agendas>
+    <Row AgendaType="AGENDA_DAHANTIANWEI" Name="LOC_AGENDA_DAHANTIANWEI_NAME" Description="LOC_AGENDA_DAHANTIANWEI_DESCRIPTION"/>
+  </Agendas>
+
+  <HistoricalAgendas>
+    <Row LeaderType="LEADER_HANWUDI" AgendaType="AGENDA_DAHANTIANWEI"/>
+  </HistoricalAgendas>
+
+  <AgendaTraits>
+    <Row AgendaType="AGENDA_DAHANTIANWEI" TraitType="TRAIT_AGENDA_DAHANTIANWEI"/>
+  </AgendaTraits>
+  
+  <!--宗教倾向-儒家思想-->
+  <FavoredReligions>
+    <Row LeaderType="LEADER_HANWUDI" ReligionType="RELIGION_CONFUCIANISM"/>
+  </FavoredReligions>
+  
+  <Colors>
+    <Row>
+      <Type>COLOR_PLAYER_LEADER_HANWUDI_PRIMARY</Type>
+      <Color>0,0,0,255</Color><!--黑色-->
+    </Row>
+    <Row>
+      <Type>COLOR_PLAYER_LEADER_HANWUDI_SECONDARY</Type>
+      <Color>255,0,0,255</Color><!--红色-->
+    </Row>
+    <Row>
+      <Type>COLOR_PLAYER_LEADER_HANWUDI_TEXT</Type>
+      <Color>255,255,255,255</Color><!--白色-->
+    </Row>
+  </Colors>
+
+  <PlayerColors>
+    <Row>
+      <Type>LEADER_HANWUDI</Type>
+      <Usage>Unique</Usage>
+      <PrimaryColor>COLOR_PLAYER_LEADER_HANWUDI_PRIMARY</PrimaryColor>
+      <SecondaryColor>COLOR_PLAYER_LEADER_HANWUDI_SECONDARY</SecondaryColor>
+      <TextColor>COLOR_PLAYER_LEADER_HANWUDI_TEXT</TextColor>
+    </Row>
+  </PlayerColors>
+
+  <LoadingInfo>
+    <Row LeaderType="LEADER_HANWUDI"  PlayDawnOfManAudio="1" LeaderText="LOC_LOADING_INFO_LEADER_HANWUDI"/>
+    <!---->
+  </LoadingInfo>
+  <DiplomacyInfo>
+    <Row Type="LEADER_HANWUDI" BackgroundImage=""/>
+    <!--IMG_LOADING_BACKGROUND.dds-->
+    <!---->
+  </DiplomacyInfo>
+
+  <CivilizationLeaders>
+    <Row CivilizationType="CIVILIZATION_CHINA" LeaderType="LEADER_HANWUDI" CapitalName="LOC_CITY_NAME_XIAN"/>
+  </CivilizationLeaders>
+
+  <ModifierStrings>
+    <Row ModifierId="Dahantianwei_Trait_AddCombat" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+    <Row ModifierId="Dahantianwei_Trait_AddMovement" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+  </ModifierStrings>
+  
+</GameData>

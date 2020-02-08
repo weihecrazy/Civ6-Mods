@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Taixue_Buildings_Data -->
+<!-- Author: 57371 -->
+<!-- DateCreated: 1/24/2020 10:13:14 PM -->
+<!-- 版本：v1.0
+     v1.0 2020年1月27日 更新：增加太学前置建筑图书馆，修复不加科技值和大科学家点数的bug
+-->
+<GameData>
+  <Types>
+    <Row Type="BUILDING_TAIXUE" Kind="KIND_BUILDING"/>
+  </Types>
+  <BuildingReplaces>
+    <Row CivUniqueBuildingType="BUILDING_TAIXUE" ReplacesBuildingType="BUILDING_UNIVERSITY"/>
+  </BuildingReplaces>
+  <Buildings>
+    <Row BuildingType="BUILDING_TAIXUE" 
+         Name="LOC_BUILDING_TAIXUE_NAME"
+         PrereqTech="TECH_WRITING" 
+         PrereqDistrict="DISTRICT_CAMPUS" 
+         PurchaseYield="YIELD_GOLD" 
+         Cost="250" 
+         AdvisorType="ADVISOR_TECHNOLOGY" 
+         Maintenance="2" 
+         Housing="1" 
+         CitizenSlots="1"
+         TraitType="TRAIT_CIVILIZATION_BUILDING_TAIXUE"/>
+  </Buildings>
+  <BuildingPrereqs>
+    <Row Building="BUILDING_TAIXUE" PrereqBuilding="BUILDING_LIBRARY"/>
+  </BuildingPrereqs>
+  <Building_YieldChanges>
+    <Row BuildingType="BUILDING_TAIXUE" YieldType="YIELD_SCIENCE" YieldChange="4"/>
+  </Building_YieldChanges>
+  <Building_GreatPersonPoints>
+    <Row BuildingType="BUILDING_TAIXUE" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+  </Building_GreatPersonPoints>
+  
+</GameData>

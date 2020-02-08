@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Wuganche_Unit_Abilities -->
+<!-- Author: 57371 -->
+<!-- DateCreated: 1/23/2020 11:12:45 PM -->
+<GameData>
+  <!--定义能力类-->
+  <Kinds>
+    <Row Kind="KIND_ABILITY"/>
+  </Kinds>
+  <!--定义ABILITY_WUGANCHE类型-->  
+  <Types>
+    <Row Type="ABILITY_WUGANCHE" Kind="KIND_ABILITY"/>
+  </Types>
+  <!--绑定到tag-->
+  <TypeTags>
+    <Row Type="ABILITY_WUGANCHE" Tag="CLASS_WUGANCHE"/>
+  </TypeTags>
+  <!--定义能力的文本描述-->
+  <UnitAbilities>
+    <Row UnitAbilityType="ABILITY_WUGANCHE" Name="LOC_ABILITY_WUGANCHE_NAME" Description="LOC_ABILITY_WUGANCHE_DESCRIPTION"/>
+  </UnitAbilities>
+  <!--定义能力的修改器-->
+  <UnitAbilityModifiers>
+    <Row>
+      <UnitAbilityType>ABILITY_WUGANCHE</UnitAbilityType>
+      <ModifierId>WUGANCHE_NEIGHBOR_COMBAT</ModifierId>
+    </Row>
+    <Row>
+      <ModifierId>WUGANCHE_NEIGHBOR_COMBAT</ModifierId>
+      <ModifierType>MODIFIER_SINGLE_UNIT_ATTACH_MODIFIER</ModifierType>
+      <SubjectRequirementSetId>WUGANCHE_PLOT_IS_WUGANCHE_REQUIREMENTS</SubjectRequirementSetId>
+    </Row>
+  </UnitAbilityModifiers>
+  <!--定义修改器-->
+  <Modifiers>
+    <Row>
+      <ModifierId>WUGANCHE_NEIGHBOR_COMBAT_MODIFIER</ModifierId>
+      <ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+    </Row>
+  </Modifiers>
+  <ModifierArguments>
+    <Row>
+      <ModifierId>WUGANCHE_NEIGHBOR_COMBAT</ModifierId>
+      <Name>ModifierId</Name>
+      <Value>WUGANCHE_NEIGHBOR_COMBAT_MODIFIER</Value>
+    </Row>
+    <Row>
+      <ModifierId>WUGANCHE_NEIGHBOR_COMBAT_MODIFIER</ModifierId>
+      <Name>Amount</Name>
+      <Value>10</Value>
+    </Row>
+  </ModifierArguments>
+
+  <RequirementSets>
+    <Row>
+      <RequirementSetId>WUGANCHE_PLOT_IS_WUGANCHE_REQUIREMENTS</RequirementSetId>
+      <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+    </Row>
+    <Row>
+      <RequirementSetId>WUGANCHE_PLOT_IS_WUGANCHE_REQUIREMENTS</RequirementSetId>
+      <RequirementId>REQUIRES_UNIT_NEXT_TO_WUGANCHE</RequirementId>
+    </Row>
+    <Row>
+      <RequirementId>REQUIRES_UNIT_NEXT_TO_WUGANCHE</RequirementId>
+      <RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+    </Row>
+    <Row>
+      <RequirementId>REQUIRES_UNIT_NEXT_TO_WUGANCHE</RequirementId>
+      <Name>UnitType</Name>
+      <Value>UNIT_WUGANCHE</Value>
+    </Row>
+  </RequirementSets>
+   <!--定义修改器的文字描述--> 
+  <ModifierStrings>
+    <Row ModifierId="WUGANCHE_NEIGHBOR_COMBAT_MODIFIER" Context="Preview" Text="LOC_ABILITY_WUGANCHE_NEIGHBOR_COMBAT_MODIFIER_DESCRIPTION"/>
+  </ModifierStrings>
+  
+</GameData>
