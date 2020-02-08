@@ -21,8 +21,8 @@
 </Associations>]]></AssociationData>
     <AssemblyName>HANWUDI</AssemblyName>
     <RootNamespace>HANWUDI</RootNamespace>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="data"><File>GameData/FrontEnd/HanWuDi_Leader_Config.xml</File></UpdateDatabase><UpdateText id="text"><File>Texts/HanWuDi_Leader_Texts.xml</File><File>Texts/Wuganche_Unit_Texts.xml</File><File>Texts/Taixue_Building_Texts.xml</File></UpdateText><UpdateIcons id="Icon"><File>Icons/HanWuDi_Leader_Icons.xml</File><File>Icons/Taixue_Building_Icons.xml</File><File>Icons/Wuganche_Unit_Icons.xml</File></UpdateIcons><UpdateArt id="art"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Data"><Criteria>LeaderCriteria</Criteria><File>GameData/InGame/HanWuDi_Leader_Data.xml</File><File>GameData/InGame/Wuganche_Unit_Data.xml</File><File>GameData/InGame/Taixue_Buildings_Data.xml</File><File>GameData/InGame/Wuganche_Unit_Ability.sql</File><File>GameData/InGame/Hanwudi_Leader_Ability.sql</File></UpdateDatabase><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="Icons"><File>Icons/HanWuDi_Leader_Icons.xml</File><File>Icons/Wuganche_Unit_Icons.xml</File><File>Icons/Taixue_Building_Icons.xml</File></UpdateIcons><UpdateText id="Text"><File>Texts/Wuganche_Unit_Texts.xml</File><File>Texts/Taixue_Building_Texts.xml</File><File>Texts/HanWuDi_Leader_Texts.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="data"><File>GameData/FrontEnd/Config.xml</File></UpdateDatabase><UpdateText id="text"><File>Texts/Building_Texts.xml</File><File>Texts/Leader_Texts.xml</File><File>Texts/Unit_Texts.xml</File></UpdateText><UpdateIcons id="Icon"><File>Icons/Building_Icons.xml</File><File>Icons/Leader_Icons.xml</File><File>Icons/Unit_Icons.xml</File></UpdateIcons><UpdateArt id="art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="color"><File>GameData/FrontEnd/Colors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Data"><Criteria>LeaderCriteria</Criteria><File>GameData/InGame/Leader_Data.xml</File><File>GameData/InGame/Leader_Ability.sql</File><File>GameData/InGame/Buildings_Data.xml</File><File>GameData/InGame/Unit_Data.xml</File><File>GameData/InGame/Moments.xml</File></UpdateDatabase><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="Icons"><File>Icons/Leader_Icons.xml</File><File>Icons/Building_Icons.xml</File><File>Icons/Unit_Icons.xml</File></UpdateIcons><UpdateText id="Text"><File>Texts/Building_Texts.xml</File><File>Texts/Leader_Texts.xml</File><File>Texts/Unit_Texts.xml</File></UpdateText></InGameActions>]]></InGameActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>Players:StandardPlayers::LEADER_HANWUDI,Players:Expansion1_Players::LEADER_HANWUDI,Players:Expansion2_Players::LEADER_HANWUDI</LeaderPlayable></Criteria><Criteria id="LeaderCriteria_Expansion1"><LeaderPlayable>Players:Expansion1_Players::LEADER_HANWUDI</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse></Criteria><Criteria id="LeaderCriteria_Expansion2"><LeaderPlayable>Players:Expansion2_Players::LEADER_HANWUDI</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
@@ -38,46 +38,49 @@
     <Content Include="Artdefs\Units.artdef">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="GameData\FrontEnd\HanWuDi_Leader_Config.xml">
+    <Content Include="GameData\FrontEnd\Colors.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="GameData\InGame\Hanwudi_Leader_Ability.sql">
+    <Content Include="GameData\FrontEnd\Config.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="GameData\InGame\HanWuDi_Leader_Data.xml">
+    <Content Include="GameData\InGame\Leader_Ability.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="GameData\InGame\Taixue_Buildings_Data.xml">
+    <Content Include="GameData\InGame\Leader_Data.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="GameData\InGame\Wuganche_Unit_Ability.sql">
+    <Content Include="GameData\InGame\Buildings_Data.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="GameData\InGame\Wuganche_Unit_Data.xml">
+    <Content Include="GameData\InGame\Moments.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="GameData\InGame\Unit_Data.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="HANWUDI.Art.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Icons\HanWuDi_Leader_Icons.xml">
+    <Content Include="Icons\Leader_Icons.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Icons\Taixue_Building_Icons.xml">
+    <Content Include="Icons\Building_Icons.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Icons\Wuganche_Unit_Icons.xml">
+    <Content Include="Icons\Unit_Icons.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="HANWUDI.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Texts\HanWuDi_Leader_Texts.xml">
+    <Content Include="Texts\Leader_Texts.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Texts\Taixue_Building_Texts.xml">
+    <Content Include="Texts\Building_Texts.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Texts\Wuganche_Unit_Texts.xml">
+    <Content Include="Texts\Unit_Texts.xml">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>

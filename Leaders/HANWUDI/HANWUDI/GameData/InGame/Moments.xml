@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Moments -->
+<!-- Author: 57371 -->
+<!-- DateCreated: 2/8/2020 2:18:59 PM -->
+<GameData>
+  <MomentIllustrations>
+    <Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" 		MomentDataType="MOMENT_DATA_UNIT" 		GameDataType="UNIT_HWD_RUSHING_TIGER" 	Texture="RushingTigerMoment.dds"/>
+    <Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" 	MomentDataType="MOMENT_DATA_BUILDING" 	GameDataType="BUILDING_TAIXUE" 		Texture="TaixueMoment.dds"/>
+  </MomentIllustrations>
+</GameData>

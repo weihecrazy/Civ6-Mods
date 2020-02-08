@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+版本：v1.1
+时间：2020年1月24日
+作者：weiheL
+v1.0 2020年1月26日 更新：将图标换成重型战车的图标
+已知问题：武刚车的头像不对
+v1.1 2020年2月8日 更新：修复头像不对问题，将武刚车换成虎贲军
+-->
+<GameData>
+  <!-- For simplicity sake, we're going to reuse existing icons. -->
+  <IconDefinitions>
+    <!-- This is the unit icon for the unit. -->
+    <Row Name="ICON_UNIT_HWD_RUSHING_TIGER"                     Atlas="ICON_ATLAS_UNITS" Index="35"/>
+    <Row Name="ICON_UNIT_HWD_RUSHING_TIGER_FOW"                 Atlas="ICON_ATLAS_UNITS_FOW" Index="35"/>
+
+    <!-- This is the portrait of the unit. -->
+    <Row Name="ICON_UNIT_HWD_RUSHING_TIGER_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="33"/>
+
+    <!-- Ethnic specific portrait of the unit.  This changes based on the leader. -->
+    <Row Name="ICON_ETHNICITY_ASIAN_UNIT_HWD_RUSHING_TIGER_PORTRAIT" Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS" Index="33"/>
+    <Row Name="ICON_ETHNICITY_MEDIT_UNIT_HWD_RUSHING_TIGER_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS" Index="33"/>
+    <Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_HWD_RUSHING_TIGER_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="33"/>
+    <Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HWD_RUSHING_TIGER_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS" Index="33"/>
+  </IconDefinitions>
+</GameData>

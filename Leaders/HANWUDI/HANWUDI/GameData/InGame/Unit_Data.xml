@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <!-- Almost all gameplay types should first be added to the types table. -->
+  <!-- This serves as a central way to reference any type -->
+  <!-- 版本：v1.3
+       时间：2020年1月24日
+       作者：weiheL
+       V1.1 2020年1月26日 更新：改为heavy cavalry类，新增CLASS_HUBENJUN，增加单位技能 
+       v1.2 2020年1月27日 更新：将UNIT_HUBENJUN改为UNIT_HWD_RUSHING_TIGER
+       v1.3 2020年2月8日 更新：改武刚车为虎贲军
+                              类型：轻骑兵（古典），作为独立单位代替虎蹲炮，能力：对抗轻骑兵+10力，移动力+1
+  -->
+  <Types>
+    <Row Type="UNIT_HWD_RUSHING_TIGER" Kind="KIND_UNIT" />
+    <Row Type="ABILITY_HWD_RUSHING_TIGER" Kind="KIND_ABILITY"/>
+  </Types>
+  
+  <Tags>
+    <Row Tag="CLASS_HWD_RUSHING_TIGER" Vocabulary="ABILITY_CLASS"/>
+  </Tags>
+  
+  <TypeTags>
+    <Row Type="UNIT_HWD_RUSHING_TIGER" Tag="CLASS_LIGHT_CAVALRY"/>
+    <Row Type="UNIT_HWD_RUSHING_TIGER" Tag="CLASS_ANTI_CAVALRY"/>
+    <Row Type="UNIT_HWD_RUSHING_TIGER" Tag="CLASS_HWD_RUSHING_TIGER"/>
+    <Row Type="ABILITY_HWD_RUSHING_TIGER" Tag="CLASS_HWD_RUSHING_TIGER"/>
+  </TypeTags>
+  
+  <UnitAiInfos>
+    <Row UnitType="UNIT_HWD_RUSHING_TIGER" AiType="UNITAI_COMBAT"/>
+    <Row UnitType="UNIT_HWD_RUSHING_TIGER" AiType="UNITAI_EXPLORE"/>
+    <Row UnitType="UNIT_HWD_RUSHING_TIGER" AiType="UNITTYPE_MELEE"/>
+    <Row UnitType="UNIT_HWD_RUSHING_TIGER" AiType="UNITTYPE_LAND_COMBAT"/>
+  </UnitAiInfos>
+
+  <UnitReplaces>
+    <Row CivUniqueUnitType="UNIT_HWD_RUSHING_TIGER" ReplacesUnitType="UNIT_HORSEMAN"/>
+  </UnitReplaces>
+  
+
+  <!-- Define the actual unit here. For examples of additional properties and values, look at Units.xml in /Base/Assets/Gameplay/Data/-->
+  <Units>
+    <Row UnitType="UNIT_HWD_RUSHING_TIGER"
+         Cost="90"
+         Maintenance="2"
+         BaseMoves="5"
+         BaseSightRange="2"
+         ZoneOfControl="true"
+         Domain="DOMAIN_LAND"
+         Combat="36"
+         StrategicResource="RESOURCE_HORSES"
+         FormationClass="FORMATION_CLASS_LAND_COMBAT"
+         PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY"
+         AdvisorType="ADVISOR_CONQUEST"
+         Name="LOC_UNIT_HWD_RUSHING_TIGER_NAME"
+         Description="LOC_UNIT_HWD_RUSHING_TIGER_DESCRIPTION"
+         PurchaseYield="YIELD_GOLD"
+         MandatoryObsoleteTech="TECH_SYNTHETIC_MATERIALS"
+         PrereqTech="TECH_HORSEBACK_RIDING"
+         TraitType="TRAIT_CIVILIZATION_UNIT_HWD_RUSHING_TIGER" />
+  </Units>
+  <Units_XP2>
+    <Row UnitType="UNIT_HWD_RUSHING_TIGER" ResourceCost="20"/>
+  </Units_XP2>
+  
+  
+  <UnitUpgrades>
+    <Row Unit="UNIT_HWD_RUSHING_TIGER" UpgradeUnit="UNIT_COURSER"/>
+  </UnitUpgrades>
+  
+</GameData>

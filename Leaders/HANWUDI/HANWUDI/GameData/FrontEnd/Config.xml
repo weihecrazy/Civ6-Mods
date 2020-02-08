@@ -62,10 +62,10 @@
       <Row 
         CivilizationType ="CIVILIZATION_CHINA"
         LeaderType="LEADER_HANWUDI"
-        Type="UNIT_HAN_WUGANCHE"
-        Name="LOC_UNIT_HAN_WUGANCHE_NAME"
-        Description="LOC_UNIT_HAN_WUGANCHE_DESCRIPTION"
-        Icon="ICON_UNIT_HAN_WUGANCHE"
+        Type="UNIT_HWD_RUSHING_TIGER"
+        Name="LOC_UNIT_HWD_RUSHING_TIGER_NAME"
+        Description="LOC_UNIT_HWD_RUSHING_TIGER_DESCRIPTION"
+        Icon="ICON_UNIT_HWD_RUSHING_TIGER"
         SortIndex="2"/>
     <!-- Expansion 1 Support -->
     <Row
@@ -81,10 +81,10 @@
         Domain="Players:Expansion1_Players"
         CivilizationType ="CIVILIZATION_CHINA"
         LeaderType="LEADER_HANWUDI"
-        Type="UNIT_HAN_WUGANCHE"
-        Name="LOC_UNIT_HAN_WUGANCHE_NAME"
-        Description="LOC_UNIT_HAN_WUGANCHE_DESCRIPTION"
-        Icon="ICON_UNIT_HAN_WUGANCHE"
+        Type="UNIT_HWD_RUSHING_TIGER"
+        Name="LOC_UNIT_HWD_RUSHING_TIGER_NAME"
+        Description="LOC_UNIT_HWD_RUSHING_TIGER_DESCRIPTION"
+        Icon="ICON_UNIT_HWD_RUSHING_TIGER"
         SortIndex="2"/>
     <!-- Expansion 2 Support -->
     <Row
@@ -100,10 +100,10 @@
         Domain="Players:Expansion2_Players"
         CivilizationType ="CIVILIZATION_CHINA"
         LeaderType="LEADER_HANWUDI"
-        Type="UNIT_HAN_WUGANCHE"
-        Name="LOC_UNIT_HAN_WUGANCHE_NAME"
-        Description="LOC_UNIT_HAN_WUGANCHE_DESCRIPTION"
-        Icon="ICON_UNIT_HAN_WUGANCHE"
+        Type="UNIT_HWD_RUSHING_TIGER"
+        Name="LOC_UNIT_HWD_RUSHING_TIGER_NAME"
+        Description="LOC_UNIT_HWD_RUSHING_TIGER_DESCRIPTION"
+        Icon="ICON_UNIT_HWD_RUSHING_TIGER"
         SortIndex="2"/>
   </PlayerItems>
 

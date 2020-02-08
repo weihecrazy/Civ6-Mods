@@ -29,7 +29,7 @@
       <Text>孝武皇帝</Text>
     </Replace>
     <Replace Tag="LOC_TRAIT_LEADER_HANWUDI_XIAOWU_EMPEROR_DESCRIPTION" Language="zh_Hans_CN">
-      <Text>犯我大汉天威者，虽远必诛！击杀单位获得+4 [ICON_GreatGeneral] 大将军点数，解锁学院区域的同时解锁太学（代替大学）。</Text>
+      <Text>犯我大汉天威者，虽远必诛！每回合获得+2 [ICON_GreatGeneral] 大将军点数，解锁学院区域的同时解锁太学（代替大学）。</Text>
     </Replace>
 
     <Replace Tag="LOC_AGENDA_DAHANTIANWEI_NAME" Language="zh_Hans_CN">

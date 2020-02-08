@@ -97,6 +97,14 @@
 			<m_EntryID text="IMG_LOADING_BACKGROUND"/>
 			<m_ObjectName text="IMG_LOADING_BACKGROUND"/>
 		</Element>
+		<Element>
+			<m_EntryID text="TaixueMoment"/>
+			<m_ObjectName text="TaixueMoment"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RushingTigerMoment"/>
+			<m_ObjectName text="RushingTigerMoment"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
