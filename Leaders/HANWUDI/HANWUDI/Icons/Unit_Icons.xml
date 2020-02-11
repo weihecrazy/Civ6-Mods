@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- 
-版本：v1.1
+版本：v1.2
 时间：2020年1月24日
 作者：weiheL
 v1.0 2020年1月26日 更新：将图标换成重型战车的图标
 已知问题：武刚车的头像不对
 v1.1 2020年2月8日 更新：修复头像不对问题，将武刚车换成虎贲军
+v1.2 2020年2月11日 更新：使用自定义的虎贲军图标
 -->
 <GameData>
-  <!-- For simplicity sake, we're going to reuse existing icons. -->
+  <!--定义画册，对应的dds文件必须先导入到xlp文件中-->
+  <IconTextureAtlases>
+    <Row Name="ATLAS_UNIT_ICONS_RUSHING_TIGER" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICONS_RUSHING_TIGER_256.dds"/>
+    <Row Name="ATLAS_UNIT_ICONS_RUSHING_TIGER" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICONS_RUSHING_TIGER_80.dds"/>
+    <Row Name="ATLAS_UNIT_ICONS_RUSHING_TIGER" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICONS_RUSHING_TIGER_50.dds"/>
+    <Row Name="ATLAS_UNIT_ICONS_RUSHING_TIGER" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="ICONS_RUSHING_TIGER_38.dds"/>
+    <Row Name="ATLAS_UNIT_ICONS_RUSHING_TIGER" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICONS_RUSHING_TIGER_32.dds"/>
+    <Row Name="ATLAS_UNIT_ICONS_RUSHING_TIGER" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="ICONS_RUSHING_TIGER_22.dds"/>
+  </IconTextureAtlases>
+  <!--绑定画册-->
   <IconDefinitions>
     <!-- This is the unit icon for the unit. -->
-    <Row Name="ICON_UNIT_HWD_RUSHING_TIGER"                     Atlas="ICON_ATLAS_UNITS" Index="35"/>
-    <Row Name="ICON_UNIT_HWD_RUSHING_TIGER_FOW"                 Atlas="ICON_ATLAS_UNITS_FOW" Index="35"/>
+    <Row Name="ICON_UNIT_HWD_RUSHING_TIGER"                     Atlas="ATLAS_UNIT_ICONS_RUSHING_TIGER" Index="0"/>
+    <Row Name="ICON_UNIT_HWD_RUSHING_TIGER_FOW"                 Atlas="ATLAS_UNIT_ICONS_RUSHING_TIGER" Index="0"/>
 
     <!-- This is the portrait of the unit. -->
     <Row Name="ICON_UNIT_HWD_RUSHING_TIGER_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="33"/>

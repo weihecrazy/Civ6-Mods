@@ -10,7 +10,7 @@
       <Usage>Unique</Usage>
       <PrimaryColor>COLOR_STANDARD_RED_DK</PrimaryColor>
       <SecondaryColor>COLOR_STANDARD_BLACK_MD</SecondaryColor>
-      <Alt1PrimaryColor>COLOR_STANDARD_YELLOW_LT</Alt1PrimaryColor>
+      <Alt1PrimaryColor>COLOR_STANDARD_YELLOW_MD</Alt1PrimaryColor>
       <Alt1SecondaryColor>COLOR_STANDARD_ORANGE_MD</Alt1SecondaryColor>
       <Alt2PrimaryColor>COLOR_STANDARD_BLUE_DK</Alt2PrimaryColor>
       <Alt2SecondaryColor>COLOR_STANDARD_WHITE_LT</Alt2SecondaryColor>

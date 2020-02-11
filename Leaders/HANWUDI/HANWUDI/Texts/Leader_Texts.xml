@@ -13,6 +13,9 @@
     <Row Tag="LOC_LOADING_INFO_LEADER_HANWUDI" Language="en_US">
       <Text>Emperor Hanwu, you ascended the throne when you were sixteen. Consolidate the imperial power, create a system of selection and selection of talents, issue gratitude orders, sell salt and iron officials, "dismiss 100 schools, respect Confucianism," expand the soil, expand the country's prestige, join North Korea in the east, swallow Baiyue in the south, and enlist the West Wan, breaking through the Huns in the north, laid the basic scope of China, opened the Silk Road, promoted Taixue, and created the prosperous era of the Han Dynasty.</Text>
     </Row>
+    <Replace Tag="LOC_CITY_NAME_CHANGAN" Language="en_US">
+      <Text>ChangAn</Text>
+    </Replace>
     
     
     <Row Tag="LOC_LEADER_HANWUDI_NAME" Language="zh_Hans_CN">
@@ -40,6 +43,9 @@
     </Replace>
     <Replace Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Language="zh_Hans_CN">
       <Text>犯我大汉天威者，虽远必诛！</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_CHANGAN" Language="zh_Hans_CN">
+      <Text>长安</Text>
     </Replace>
     
   </LocalizedText>

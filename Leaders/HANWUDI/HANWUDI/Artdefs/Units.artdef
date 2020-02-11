@@ -15,7 +15,7 @@
         <m_Fields>
           <m_Values>
             <Element class="AssetObjects..ArtDefReferenceValue">
-              <m_ElementName text="Scattered"/>
+              <m_ElementName text="Horsemen"/>
               <m_RootCollectionName text="UnitFormationTypes"/>
               <m_ArtDefPath text="Units.artdef"/>
               <m_CollectionIsLocked>false</m_CollectionIsLocked>
@@ -23,11 +23,11 @@
               <m_ParamName text="Formation"/>
             </Element>
             <Element class="AssetObjects..ArtDefReferenceValue">
-              <m_ElementName text=""/>
+              <m_ElementName text="Knight"/>
               <m_RootCollectionName text="UnitCombat"/>
               <m_ArtDefPath text="Units.artdef"/>
-              <m_CollectionIsLocked>false</m_CollectionIsLocked>
-              <m_TemplateName text=""/>
+              <m_CollectionIsLocked>true</m_CollectionIsLocked>
+              <m_TemplateName text="Units"/>
               <m_ParamName text="UnitCombat"/>
             </Element>
             <Element class="AssetObjects..ArtDefReferenceValue">
@@ -96,15 +96,15 @@
                     <m_ParamName text="Scale"/>
                   </Element>
                   <Element class="AssetObjects..IntValue">
-                    <m_nValue>1</m_nValue>
+                    <m_nValue>2</m_nValue>
                     <m_ParamName text="Count"/>
                   </Element>
                   <Element class="AssetObjects..ArtDefReferenceValue">
-                    <m_ElementName text="HeavyChariot"/>
+                    <m_ElementName text="Horseman"/>
                     <m_RootCollectionName text="UnitMemberTypes"/>
                     <m_ArtDefPath text="Units.artdef"/>
-                    <m_CollectionIsLocked>true</m_CollectionIsLocked>
-                    <m_TemplateName text="Units"/>
+                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
+                    <m_TemplateName text=""/>
                     <m_ParamName text="Type"/>
                   </Element>
                 </m_Values>
@@ -134,13 +134,13 @@
               <m_Fields>
                 <m_Values>
                   <Element class="AssetObjects..StringValue">
-                    <m_Value text="Heavy_Chariot"/>
+                    <m_Value text="Horseman"/>
                     <m_ParamName text="XrefName"/>
                   </Element>
                 </m_Values>
               </m_Fields>
               <m_ChildCollections/>
-              <m_Name text="HEAVY_CHARIOT"/>
+              <m_Name text="HORSEMAN"/>
               <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
             </Element>
           </Element>

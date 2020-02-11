@@ -105,6 +105,30 @@
 			<m_EntryID text="RushingTigerMoment"/>
 			<m_ObjectName text="RushingTigerMoment"/>
 		</Element>
+		<Element>
+			<m_EntryID text="ICONS_RUSHING_TIGER_22"/>
+			<m_ObjectName text="ICONS_RUSHING_TIGER_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICONS_RUSHING_TIGER_256"/>
+			<m_ObjectName text="ICONS_RUSHING_TIGER_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICONS_RUSHING_TIGER_32"/>
+			<m_ObjectName text="ICONS_RUSHING_TIGER_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICONS_RUSHING_TIGER_38"/>
+			<m_ObjectName text="ICONS_RUSHING_TIGER_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICONS_RUSHING_TIGER_50"/>
+			<m_ObjectName text="ICONS_RUSHING_TIGER_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICONS_RUSHING_TIGER_80"/>
+			<m_ObjectName text="ICONS_RUSHING_TIGER_80"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

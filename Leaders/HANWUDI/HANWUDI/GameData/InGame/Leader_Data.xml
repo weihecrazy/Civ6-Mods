@@ -64,7 +64,7 @@
   </DiplomacyInfo>
 
   <CivilizationLeaders>
-    <Row CivilizationType="CIVILIZATION_CHINA" LeaderType="LEADER_HANWUDI" CapitalName="LOC_CITY_NAME_XIAN"/>
+    <Row CivilizationType="CIVILIZATION_CHINA" LeaderType="LEADER_HANWUDI" CapitalName="LOC_CITY_NAME_CHANGAN"/>
   </CivilizationLeaders>
 
   <ModifierStrings>
