@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Text -->
+<!-- Author: 57371 -->
+<!-- DateCreated: 2/11/2020 8:51:07 PM -->
+<GameData>
+  <LocalizedText>
+    <Row Tag="LOC_LEADER_ZHUDI_NAME" Language="zh_Hans_CN">
+      <Text>朱棣</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_ZHUDI_QUOTE" Language="zh_Hans_CN">
+      <Text>朱棣的引言</Text>
+    </Row> 
+    <Row Tag="LOC_TRAIT_LEADER_ZHUDI_YONGLE_NAME" Language="zh_Hans_CN">
+      <Text>永乐大典</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_ZHUDI_YONGLE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>永乐元年，朱棣下令编写了世界上最早百科全书《永乐大典》。每个巨作额外+1文化。
+      </Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_ZHUDI_SEVEN_VOYAGES_TO_WESTERN_SEA" Language="zh_Hans_CN">
+      <Text>七下西洋</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_ZHUDI_SEVEN_VOYAGES_TO_WESTERN_SEA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>为了宣扬大明国威，朱棣令郑和七下西洋，最远达到了今天的非洲东部。所有海上国际商路额外+1金币。
+      </Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_CRESADE_MGL_FIVE_NAME" Language="zh_Hans_CN">
+      <Text>五征漠北</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_CRESADE_MGL_FIVE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>朱棣为了彻底解决元朝的残余势力，从1410年（永乐八年）开始，朱棣亲自率领明军进行北伐。这次北伐，明军在飞云山大战中击破五万蒙古铁骑，蒙古本部的鞑靼向明朝称臣纳贡。五次北伐致使蒙古势力进一削弱，维护了明朝边境的安宁，后来朱棣亦在第五次亲征得胜回朝途中病逝。</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_AGENDA_CRESADE_MGL_FIVE_NAME" Language="zh_Hans_CN">
+      <Text>五征漠北</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_AGENDA_CRESADE_MGL_FIVE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>对蒙古的不满+999</Text>
+    </Row>
+  </LocalizedText>
+</GameData>

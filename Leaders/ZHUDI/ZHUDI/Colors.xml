@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Colors -->
+<!-- Author: 57371 -->
+<!-- DateCreated: 2/11/2020 8:53:40 PM -->
+<GameData>
+  <PlayerColors>
+    <Row>
+      <Type>LEADER_ZHUDI</Type>
+      <Usage>Unique</Usage>
+      <PrimaryColor>COLOR_STANDARD_YELLOW_LT</PrimaryColor>
+      <SecondaryColor>COLOR_STANDARD_RED_LT</SecondaryColor>
+    </Row>
+  </PlayerColors>
+</GameData>

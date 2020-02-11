@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>451</build>
+		<revision>343</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="ZHUDI_DDS"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ICON_TREASURE_SHIP_22"/>
+			<m_ObjectName text="ICON_TREASURE_SHIP_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_TREASURE_SHIP_256"/>
+			<m_ObjectName text="ICON_TREASURE_SHIP_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_TREASURE_SHIP_32"/>
+			<m_ObjectName text="ICON_TREASURE_SHIP_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_TREASURE_SHIP_38"/>
+			<m_ObjectName text="ICON_TREASURE_SHIP_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_TREASURE_SHIP_50"/>
+			<m_ObjectName text="ICON_TREASURE_SHIP_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_TREASURE_SHIP_80"/>
+			<m_ObjectName text="ICON_TREASURE_SHIP_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ZHUDI_256"/>
+			<m_ObjectName text="ICON_ZHUDI_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ZHUDI_32"/>
+			<m_ObjectName text="ICON_ZHUDI_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ZHUDI_45"/>
+			<m_ObjectName text="ICON_ZHUDI_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ZHUDI_48"/>
+			<m_ObjectName text="ICON_ZHUDI_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ZHUDI_50"/>
+			<m_ObjectName text="ICON_ZHUDI_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ZHUDI_55"/>
+			<m_ObjectName text="ICON_ZHUDI_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ZHUDI_64"/>
+			<m_ObjectName text="ICON_ZHUDI_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ZHUDI_80"/>
+			<m_ObjectName text="ICON_ZHUDI_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAIT_TREASURE_SHIP_256"/>
+			<m_ObjectName text="PORTRAIT_TREASURE_SHIP_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAIT_TREASURE_SHIP_30"/>
+			<m_ObjectName text="PORTRAIT_TREASURE_SHIP_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAIT_TREASURE_SHIP_32"/>
+			<m_ObjectName text="PORTRAIT_TREASURE_SHIP_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAIT_TREASURE_SHIP_38"/>
+			<m_ObjectName text="PORTRAIT_TREASURE_SHIP_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAIT_TREASURE_SHIP_50"/>
+			<m_ObjectName text="PORTRAIT_TREASURE_SHIP_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAIT_TREASURE_SHIP_70"/>
+			<m_ObjectName text="PORTRAIT_TREASURE_SHIP_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAIT_TREASURE_SHIP_80"/>
+			<m_ObjectName text="PORTRAIT_TREASURE_SHIP_80"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

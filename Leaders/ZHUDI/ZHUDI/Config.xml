@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Config -->
+<!-- Author: 57371 -->
+<!-- DateCreated: 2/11/2020 8:53:13 PM -->
+<GameData>
+  <Players>
+    <Row
+      CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_DESCRIPTION"
+      CivilizationAbilityIcon="ICON_CIVILIZATION_CHINA"
+      CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_NAME"
+      CivilizationIcon="ICON_CIVILIZATION_CHINA"
+      CivilizationName="LOC_CIVILIZATION_CHINA_NAME"
+      CivilizationType="CIVILIZATION_CHINA"
+      LeaderAbilityDescription="LOC_TRAIT_LEADER_ZHUDI_YONGLE_DESCRIPTION"
+      LeaderAbilityIcon="ICON_LEADER_ZHUDI"
+      LeaderAbilityName="LOC_TRAIT_LEADER_ZHUDI_YONGLE_NAME"
+      LeaderIcon="ICON_LEADER_ZHUDI"
+      LeaderName="LOC_LEADER_ZHUDI_NAME"
+      LeaderType="LEADER_ZHUDI"
+      Portrait="IMG_LEADER_ZHUDI_PORTRAIT"/>
+    <!-- Expansion 1 Support -->
+    <Row Domain="Players:Expansion1_Players"
+      CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_EXPANSION1_DESCRIPTION"
+      CivilizationAbilityIcon="ICON_CIVILIZATION_CHINA"
+      CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_NAME"
+      CivilizationIcon="ICON_CIVILIZATION_CHINA"
+      CivilizationName="LOC_CIVILIZATION_CHINA_NAME"
+      CivilizationType="CIVILIZATION_CHINA"
+      LeaderAbilityDescription="LOC_TRAIT_LEADER_ZHUDI_YONGLE_DESCRIPTION"
+      LeaderAbilityIcon="ICON_LEADER_ZHUDI"
+      LeaderAbilityName="LOC_TRAIT_LEADER_ZHUDI_YONGLE_NAME"
+      LeaderIcon="ICON_LEADER_ZHUDI"
+      LeaderName="LOC_LEADER_ZHUDI_NAME"
+      LeaderType="LEADER_ZHUDI"
+      Portrait=""/>
+    <!--IMG_LEADER_ZHUDI_PORTRAIT-->
+    <!-- Expansion 2 Support -->
+    <Row Domain="Players:Expansion2_Players"
+      CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_EXPANSION2_DESCRIPTION"
+      CivilizationAbilityIcon="ICON_CIVILIZATION_CHINA"
+      CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_NAME"
+      CivilizationIcon="ICON_CIVILIZATION_CHINA"
+      CivilizationName="LOC_CIVILIZATION_CHINA_NAME"
+      CivilizationType="CIVILIZATION_CHINA"
+      LeaderAbilityDescription="LOC_TRAIT_LEADER_ZHUDI_YONGLE_DESCRIPTION"
+      LeaderAbilityIcon="ICON_LEADER_ZHUDI"
+      LeaderAbilityName="LOC_TRAIT_LEADER_ZHUDI_YONGLE_NAME"
+      LeaderIcon="ICON_LEADER_ZHUDI"
+      LeaderName="LOC_LEADER_ZHUDI_NAME"
+      LeaderType="LEADER_ZHUDI"
+      Portrait=""/>
+    <!--IMG_LEADER_ZHUDI_PORTRAIT-->
+  </Players>
+  <!--CivilizationType ="CIVILIZATION_CHINA"-->
+  <PlayerItems>
+    <Row
+      CivilizationType ="CIVILIZATION_CHINA"
+      LeaderType="LEADER_ZHUDI"
+      Type="BUILDING_TREASURE_SHIPYARD"
+      Name="LOC_BUILDING_TREASURE_SHIPYARD_NAME"
+      Description="LOC_BUILDING_TREASURE_SHIPYARD_DESCRIPTION"
+      Icon="ICON_BUILDING_TREASURE_SHIPYARD"
+      SortIndex="1"/>
+    <Row
+      CivilizationType ="CIVILIZATION_CHINA"
+      LeaderType="LEADER_ZHUDI"
+      Type="UNIT_TREASURE_SHIP"
+      Name="LOC_UNIT_TREASURE_SHIP_NAME"
+      Description="LOC_UNIT_TREASURE_SHIP_DESCRIPTION"
+      Icon="ICON_UNIT_TREASURE_SHIP"
+      SortIndex="2"/>
+    <!-- Expansion 1 Support -->
+    <Row
+        Domain="Players:Expansion1_Players"
+        CivilizationType ="CIVILIZATION_CHINA"
+        LeaderType="LEADER_ZHUDI"
+        Type="BUILDING_TREASURE_SHIPYARD"
+        Name="LOC_BUILDING_TREASURE_SHIPYARD_NAME"
+        Description="LOC_BUILDING_TREASURE_SHIPYARD_DESCRIPTION"
+        Icon="ICON_BUILDING_TREASURE_SHIPYARD"
+        SortIndex="1"/>
+    <Row
+        Domain="Players:Expansion1_Players"
+        CivilizationType ="CIVILIZATION_CHINA"
+        LeaderType="LEADER_ZHUDI"
+        Type="UNIT_TREASURE_SHIP"
+        Name="LOC_UNIT_TREASURE_SHIP_NAME"
+        Description="LOC_UNIT_TREASURE_SHIP_DESCRIPTION"
+        Icon="ICON_UNIT_TREASURE_SHIP"
+        SortIndex="2"/>
+    <!-- Expansion 2 Support -->
+    <Row
+        Domain="Players:Expansion2_Players"
+        CivilizationType ="CIVILIZATION_CHINA"
+        LeaderType="LEADER_ZHUDI"
+        Type="BUILDING_TREASURE_SHIPYARD"
+        Name="LOC_BUILDING_TREASURE_SHIPYARD_NAME"
+        Description="LOC_BUILDING_TREASURE_SHIPYARD_DESCRIPTION"
+        Icon="ICON_BUILDING_TREASURE_SHIPYARD"
+        SortIndex="1"/>
+    <Row
+        Domain="Players:Expansion2_Players"
+        CivilizationType ="CIVILIZATION_CHINA"
+        LeaderType="LEADER_ZHUDI"
+        Type="UNIT_TREASURE_SHIP"
+        Name="LOC_UNIT_TREASURE_SHIP_NAME"
+        Description="LOC_UNIT_TREASURE_SHIP_DESCRIPTION"
+        Icon="ICON_UNIT_TREASURE_SHIP"
+        SortIndex="2"/>
+  </PlayerItems>
+
+
+</GameData>
