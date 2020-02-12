@@ -42,5 +42,11 @@
     <Row Tag="LOC_BUILDING_TREASURE_SHIPYARD_DESCRIPTION" Language="zh_Hans_CN">
       <Text>生产宝船的造船厂，额外+1 [ICON_Production] 生产力和 [ICON_Gold] 金币。</Text>
     </Row>
+    <Row Tag="LOC_BUILDING_DONGCHANG_NAME" Language="zh_Hans_CN">
+      <Text>东缉事厂</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_DONGCHANG_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>朱棣作为领袖时，中国的特色建筑。代替情报局，增加间谍的反间谍能力。</Text>
+    </Row>
   </LocalizedText>
 </GameData>

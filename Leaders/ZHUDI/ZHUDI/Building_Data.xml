@@ -2,12 +2,15 @@
 <!-- Building_Data -->
 <!-- Author: 57371 -->
 <!-- DateCreated: 2/11/2020 8:50:12 PM -->
+<!-- 2020年2月12日 1.1更新：新增特色建筑-东厂 -->
 <GameData>
   <Types>
     <Row Type="BUILDING_TREASURE_SHIPYARD" Kind="KIND_BUILDING"/>
+    <Row Type="BUILDING_DONGCHANG" Kind="KIND_BUILDING"/>
   </Types>
   <BuildingReplaces>
     <Row CivUniqueBuildingType="BUILDING_TREASURE_SHIPYARD" ReplacesBuildingType="BUILDING_SHIPYARD"/>
+    <Row CivUniqueBuildingType="BUILDING_DONGCHANG" ReplacesBuildingType="BUILDING_GOV_SPIES"/>
   </BuildingReplaces>
   <Buildings>
     <Row BuildingType="BUILDING_TREASURE_SHIPYARD"
@@ -21,9 +24,22 @@
          Maintenance="2"
          CitizenSlots="1"
          TraitType="TRAIT_CIVILIZATION_BUILDING_TREASURE_SHIPYARD"/>
+    <Row BuildingType="BUILDING_DONGCHANG" 
+         Name="LOC_BUILDING_DONGCHANG_NAME" 
+         Description="LOC_BUILDING_DONGCHANG_DESCRIPTION" 
+         PrereqDistrict="DISTRICT_GOVERNMENT" 
+         Cost="290" 
+         AdvisorType="ADVISOR_GENERIC" 
+         Maintenance="2" 
+         UnlocksGovernmentPolicy="True" 
+         GovernmentTierRequirement="Tier2"
+         TraitType="TRAIT_CIVILIZATION_BUILDING_DONGCHANG"/>
   </Buildings>
   <BuildingPrereqs>
     <Row Building="BUILDING_TREASURE_SHIPYARD" PrereqBuilding="BUILDING_LIGHTHOUSE"/>
+    <Row Building="BUILDING_DONGCHANG" PrereqBuilding="BUILDING_GOV_TALL"/>
+    <Row Building="BUILDING_DONGCHANG" PrereqBuilding="BUILDING_GOV_WIDE"/>
+    <Row Building="BUILDING_DONGCHANG" PrereqBuilding="BUILDING_GOV_CONQUEST"/>
   </BuildingPrereqs>
   <Building_YieldChanges>
     <Row BuildingType="BUILDING_TREASURE_SHIPYARD" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
@@ -40,5 +56,8 @@
       <BuildingType>BUILDING_TREASURE_SHIPYARD</BuildingType>
       <ModifierId>SHIPYARD_TRAINED_UNIT_XP_MODIFIER</ModifierId>
     </Row>
+    <Row BuildingType="BUILDING_DONGCHANG" ModifierId="GOV_GRANT_SPY"/>
+    <Row BuildingType="BUILDING_DONGCHANG" ModifierId="GOV_ADD_SPY_UNIT"/>
+    <Row BuildingType="BUILDING_DONGCHANG" ModifierId="GOV_INCREASE_SPY_LEVEL"/>
   </BuildingModifiers>
 </GameData>

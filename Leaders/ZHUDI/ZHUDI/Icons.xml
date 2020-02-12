@@ -34,7 +34,7 @@
     <Row Name="ICON_LEADER_ZHUDI" Atlas="ATLAS_LEADER_ZHUDI" index="0"/>
     <Row Name="ICON_UNIT_TREASURE_SHIP" Atlas="ATLAS_UNIT_TREASURE_SHIP" index="0"/>
     <Row Name="ICON_BUILDING_TREASURE_SHIPYARD"             Atlas="ICON_ATLAS_BUILDINGS" Index="22"/>
-    
+    <Row Name="ICON_BUILDING_DONGCHANG"         Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS" Index="4"/>
     <Row Name="ICON_UNIT_TREASURE_SHIP_PORTRAIT" Atlas="ATLAS_UNIT_TREASURE_SHIP_PORTRAIT" index="0"/>
   </IconDefinitions>
 
