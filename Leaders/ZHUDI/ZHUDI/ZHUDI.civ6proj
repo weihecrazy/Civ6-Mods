@@ -18,14 +18,14 @@
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
     <AssemblyName>ZHUDI</AssemblyName>
     <RootNamespace>ZHUDI</RootNamespace>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="DATA"><File>Config.xml</File></UpdateDatabase><UpdateText id="TEXT"><File>Texts.xml</File></UpdateText><UpdateIcons id="ICON"><File>Icons.xml</File></UpdateIcons><UpdateArt id="ART"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="color"><File>Colors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="DATA"><File>Leader_Data.xml</File><File>Building_Data.xml</File><File>Unit_Data.xml</File></UpdateDatabase><UpdateIcons id="ICON"><File>Icons.xml</File></UpdateIcons><UpdateText id="TEXT"><File>Texts.xml</File></UpdateText><UpdateArt id="ART"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="DATA"><File>Config.xml</File></UpdateDatabase><UpdateText id="TEXT"><File>Texts.xml</File></UpdateText><UpdateIcons id="ICON"><File>Icons.xml</File></UpdateIcons><UpdateArt id="ART"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="DATA"><File>Leader_Data.xml</File><File>Unit_Data.xml</File><File>Colors.xml</File><File>Building_Data_TreasureShipyard.xml</File></UpdateDatabase><UpdateIcons id="ICON"><File>Icons.xml</File></UpdateIcons><UpdateText id="TEXT"><File>Texts.xml</File></UpdateText><UpdateArt id="ART"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="ZHUDI.Art.xml" />
+    <None Include="Mod.Art.xml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Artdefs\Buildings.artdef">

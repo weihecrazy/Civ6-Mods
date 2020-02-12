@@ -4,24 +4,15 @@
 <!-- DateCreated: 2/11/2020 8:51:07 PM -->
 <GameData>
   <LocalizedText>
+    <!--LEADERS-->
     <Row Tag="LOC_LEADER_ZHUDI_NAME" Language="zh_Hans_CN">
       <Text>朱棣</Text>
     </Row>
-    <Row Tag="LOC_LEADER_ZHUDI_QUOTE" Language="zh_Hans_CN">
-      <Text>朱棣的引言</Text>
-    </Row> 
     <Row Tag="LOC_TRAIT_LEADER_ZHUDI_YONGLE_NAME" Language="zh_Hans_CN">
-      <Text>永乐大典</Text>
+      <Text>永乐大帝</Text>
     </Row>
     <Row Tag="LOC_TRAIT_LEADER_ZHUDI_YONGLE_DESCRIPTION" Language="zh_Hans_CN">
-      <Text>永乐元年，朱棣下令编写了世界上最早百科全书《永乐大典》。每个巨作额外+1文化。
-      </Text>
-    </Row>
-    <Row Tag="LOC_TRAIT_LEADER_ZHUDI_SEVEN_VOYAGES_TO_WESTERN_SEA" Language="zh_Hans_CN">
-      <Text>七下西洋</Text>
-    </Row>
-    <Row Tag="LOC_TRAIT_LEADER_ZHUDI_SEVEN_VOYAGES_TO_WESTERN_SEA_DESCRIPTION" Language="zh_Hans_CN">
-      <Text>为了宣扬大明国威，朱棣令郑和七下西洋，最远达到了今天的非洲东部。所有海上国际商路额外+1金币。
+      <Text>朱棣作为领袖时，每个巨作增加额外+2 [ICON_Culture] 文化值。每个海上国际商路获得+1 [ICON_Envoy] 使者和 [ICON_Gold] 金币。
       </Text>
     </Row>
     <Row Tag="LOC_AGENDA_CRESADE_MGL_FIVE_NAME" Language="zh_Hans_CN">
@@ -30,11 +21,26 @@
     <Row Tag="LOC_AGENDA_CRESADE_MGL_FIVE_DESCRIPTION" Language="zh_Hans_CN">
       <Text>朱棣为了彻底解决元朝的残余势力，从1410年（永乐八年）开始，朱棣亲自率领明军进行北伐。这次北伐，明军在飞云山大战中击破五万蒙古铁骑，蒙古本部的鞑靼向明朝称臣纳贡。五次北伐致使蒙古势力进一削弱，维护了明朝边境的安宁，后来朱棣亦在第五次亲征得胜回朝途中病逝。</Text>
     </Row>
-    <Row Tag="LOC_TRAIT_AGENDA_CRESADE_MGL_FIVE_NAME" Language="zh_Hans_CN">
-      <Text>五征漠北</Text>
-    </Row>
     <Row Tag="LOC_TRAIT_AGENDA_CRESADE_MGL_FIVE_DESCRIPTION" Language="zh_Hans_CN">
       <Text>对蒙古的不满+999</Text>
+    </Row>
+    <Row Tag="LOC_LOADING_INFO_LEADER_ZHUDI" Language="zh_Hans_CN">
+      <Text>明成祖朱棣，永乐大帝，您靖难登极后，励精图治，延续洪武政策。政治上，改革官制机构，设置内阁和东厂；军事上，五次亲征蒙古，收复安南，东北设立奴儿干都司，西北设置哈密卫，西南设置大古刺、底马撒、底兀刺等宣慰使司和贵州承宣布政使司，拓展和维护华夏版图的完整；委派郑和下西洋，加强中外友好往来和南海地区的经营；编修《永乐大典》，疏浚大运河，迁都北京。统治期间，经济繁荣，国力强盛，文治武功很大提升。
+      </Text>
+    </Row>
+    <!--UNITS-->
+    <Row Tag="LOC_UNIT_TREASURE_SHIP_NAME" Language="zh_Hans_CN">
+      <Text>宝船</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_TREASURE_SHIP_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>15世纪世界上最大的木质帆船，当之无愧的旗舰。有相邻的非宝船海军单位时+10 [ICON_Strength] 战斗力。</Text>
+    </Row>
+    <!--BUILDINGS-->
+    <Row Tag="LOC_BUILDING_TREASURE_SHIPYARD_NAME" Language="zh_Hans_CN">
+      <Text>宝船厂</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_TREASURE_SHIPYARD_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>生产宝船的造船厂，额外+1 [ICON_Production] 生产力和 [ICON_Gold] 金币。</Text>
     </Row>
   </LocalizedText>
 </GameData>

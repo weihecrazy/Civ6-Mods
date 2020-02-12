@@ -3,12 +3,23 @@
 <!-- Author: 57371 -->
 <!-- DateCreated: 2/11/2020 8:53:40 PM -->
 <GameData>
+  <Colors>
+    <Row>
+      <Type>COLOR_PLAYER_LEADER_ZHUDI_PRIMARY</Type>
+      <Color>255,170,0,255</Color>
+    </Row>
+    <Row>
+      <Type>COLOR_PLAYER_LEADER_ZHUDI_SECONDARY</Type>
+      <Color>255,255,0,255</Color>
+    </Row>
+  </Colors>
   <PlayerColors>
     <Row>
-      <Type>LEADER_ZHUDI</Type>
+      <Type>LEADER_Wuzetian</Type>
       <Usage>Unique</Usage>
-      <PrimaryColor>COLOR_STANDARD_YELLOW_LT</PrimaryColor>
-      <SecondaryColor>COLOR_STANDARD_RED_LT</SecondaryColor>
+      <PrimaryColor>COLOR_PLAYER_LEADER_ZHUDI_PRIMARY</PrimaryColor>
+      <SecondaryColor>COLOR_PLAYER_LEADER_ZHUDI_SECONDARY</SecondaryColor>
+      <TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
     </Row>
   </PlayerColors>
 </GameData>

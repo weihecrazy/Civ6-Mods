@@ -3,5 +3,53 @@
 <!-- Author: 57371 -->
 <!-- DateCreated: 2/11/2020 8:49:59 PM -->
 <GameData>
+  <Types>
+    <Row Type="UNIT_TREASURE_SHIP" Kind="KIND_UNIT" />
+    <Row Type="ABILITY_TREASURE_SHIP" Kind="KIND_ABILITY"/>
+  </Types>
 
+  <Tags>
+    <Row Tag="CLASS_TREASURE_SHIP" Vocabulary="ABILITY_CLASS"/>
+  </Tags>
+
+  <TypeTags>
+    <Row Type="UNIT_TREASURE_SHIP" Tag="CLASS_NAVAL_RANGED"/>
+    <Row Type="UNIT_TREASURE_SHIP" Tag="CLASS_TREASURE_SHIP"/>
+    <Row Type="ABILITY_TREASURE_SHIP" Tag="CLASS_TREASURE_SHIP"/>
+  </TypeTags>
+
+  <UnitAiInfos>
+    <Row UnitType="UNIT_TREASURE_SHIP" AiType="UNITAI_COMBAT"/>
+    <Row UnitType="UNIT_TREASURE_SHIP" AiType="UNITAI_EXPLORE"/>
+    <Row UnitType="UNIT_TREASURE_SHIP" AiType="UNITTYPE_RANGED"/>
+    <Row UnitType="UNIT_TREASURE_SHIP" AiType="UNITTYPE_NAVAL"/>
+  </UnitAiInfos>
+
+  <!-- Define the actual unit here. For examples of additional properties and values, look at Units.xml in /Base/Assets/Gameplay/Data/-->
+  <Units>
+    <Row UnitType="UNIT_TREASURE_SHIP"
+         Cost="350"
+         Maintenance="6"
+         BaseMoves="5"
+         BaseSightRange="2"
+         ZoneOfControl="true"
+         Domain="DOMAIN_SEA"
+         Combat="48"
+         RangedCombat="58"
+         Range="2"
+         FormationClass="FORMATION_CLASS_NAVAL"
+         PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT"
+         PromotionClass="PROMOTION_CLASS_NAVAL_RANGED"
+         AdvisorType="ADVISOR_CONQUEST"
+         Name="LOC_UNIT_TREASURE_SHIP_NAME"
+         Description="LOC_UNIT_TREASURE_SHIP_DESCRIPTION"
+         PurchaseYield="YIELD_GOLD"
+         MandatoryObsoleteTech="TECH_LASERS"
+         PrereqCivic="CIVIC_MEDIEVAL_FAIRES"
+         TraitType="TRAIT_CIVILIZATION_UNIT_TREASURE_SHIP" />
+  </Units>
+
+  <UnitUpgrades>
+    <Row Unit="UNIT_TREASURE_SHIP" UpgradeUnit="UNIT_BATTLESHIP"/>
+  </UnitUpgrades>
 </GameData>

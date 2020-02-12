@@ -21,19 +21,21 @@
     <Row Name="ATLAS_UNIT_TREASURE_SHIP" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_TREASURE_SHIP_32.dds"/>
     <Row Name="ATLAS_UNIT_TREASURE_SHIP" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_TREASURE_SHIP_22.dds"/>
     <!--UNIT PORTRAITS-->
-    <Row Name="ATLAS_UNIT_PORTRAIT_TREASURE_SHIP_PORTRAIT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="PORTRAIT_TREASURE_SHIP_256.dds"/>
-    <Row Name="ATLAS_UNIT_PORTRAIT_TREASURE_SHIP_PORTRAIT" IconSize="200" IconsPerRow="1" IconsPerColumn="1" Filename="PORTRAIT_TREASURE_SHIP_200.dds"/>
-    <Row Name="ATLAS_UNIT_PORTRAIT_TREASURE_SHIP_PORTRAIT" IconSize="95" IconsPerRow="1" IconsPerColumn="1" Filename="PORTRAIT_TREASURE_SHIP_95.dds"/>
-    <Row Name="ATLAS_UNIT_PORTRAIT_TREASURE_SHIP_PORTRAIT" IconSize="70" IconsPerRow="1" IconsPerColumn="1" Filename="PORTRAIT_TREASURE_SHIP_70.dds"/>
-    <Row Name="ATLAS_UNIT_PORTRAIT_TREASURE_SHIP_PORTRAIT" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="PORTRAIT_TREASURE_SHIP_50.dds"/>
-    <Row Name="ATLAS_UNIT_PORTRAIT_TREASURE_SHIP_PORTRAIT" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="PORTRAIT_TREASURE_SHIP_38.dds"/>
+    <Row Name="ATLAS_UNIT_TREASURE_SHIP_PORTRAIT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="PORTRAIT_TREASURE_SHIP_256.dds"/>
+    <Row Name="ATLAS_UNIT_TREASURE_SHIP_PORTRAIT" IconSize="200" IconsPerRow="1" IconsPerColumn="1" Filename="PORTRAIT_TREASURE_SHIP_200.dds"/>
+    <Row Name="ATLAS_UNIT_TREASURE_SHIP_PORTRAIT" IconSize="95" IconsPerRow="1" IconsPerColumn="1" Filename="PORTRAIT_TREASURE_SHIP_95.dds"/>
+    <Row Name="ATLAS_UNIT_TREASURE_SHIP_PORTRAIT" IconSize="70" IconsPerRow="1" IconsPerColumn="1" Filename="PORTRAIT_TREASURE_SHIP_70.dds"/>
+    <Row Name="ATLAS_UNIT_TREASURE_SHIP_PORTRAIT" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="PORTRAIT_TREASURE_SHIP_50.dds"/>
+    <Row Name="ATLAS_UNIT_TREASURE_SHIP_PORTRAIT" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="PORTRAIT_TREASURE_SHIP_38.dds"/>
   </IconTextureAtlases>
 
 
   <IconDefinitions>
     <Row Name="ICON_LEADER_ZHUDI" Atlas="ATLAS_LEADER_ZHUDI" index="0"/>
-    <Row Name="ICON_BUILDING_TREASURE_SHIPYARD" Atlas="ATLAS_UNIT_TREASURE_SHIP" index="0"/>
-    <Row Name="ICON_UNIT_TREASURE_SHIP_PORTRAIT" Atlas="ATLAS_UNIT_PORTRAIT_TREASURE_SHIP_PORTRAIT" index="0"/>
+    <Row Name="ICON_UNIT_TREASURE_SHIP" Atlas="ATLAS_UNIT_TREASURE_SHIP" index="0"/>
+    <Row Name="ICON_BUILDING_TREASURE_SHIPYARD"             Atlas="ICON_ATLAS_BUILDINGS" Index="22"/>
+    
+    <Row Name="ICON_UNIT_TREASURE_SHIP_PORTRAIT" Atlas="ATLAS_UNIT_TREASURE_SHIP_PORTRAIT" index="0"/>
   </IconDefinitions>
 
 </GameData>

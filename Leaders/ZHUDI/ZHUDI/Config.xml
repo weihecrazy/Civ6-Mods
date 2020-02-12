@@ -60,7 +60,7 @@
       Name="LOC_BUILDING_TREASURE_SHIPYARD_NAME"
       Description="LOC_BUILDING_TREASURE_SHIPYARD_DESCRIPTION"
       Icon="ICON_BUILDING_TREASURE_SHIPYARD"
-      SortIndex="1"/>
+      SortIndex="2"/>
     <Row
       CivilizationType ="CIVILIZATION_CHINA"
       LeaderType="LEADER_ZHUDI"
@@ -68,7 +68,7 @@
       Name="LOC_UNIT_TREASURE_SHIP_NAME"
       Description="LOC_UNIT_TREASURE_SHIP_DESCRIPTION"
       Icon="ICON_UNIT_TREASURE_SHIP"
-      SortIndex="2"/>
+      SortIndex="1"/>
     <!-- Expansion 1 Support -->
     <Row
         Domain="Players:Expansion1_Players"
@@ -78,7 +78,7 @@
         Name="LOC_BUILDING_TREASURE_SHIPYARD_NAME"
         Description="LOC_BUILDING_TREASURE_SHIPYARD_DESCRIPTION"
         Icon="ICON_BUILDING_TREASURE_SHIPYARD"
-        SortIndex="1"/>
+        SortIndex="2"/>
     <Row
         Domain="Players:Expansion1_Players"
         CivilizationType ="CIVILIZATION_CHINA"
@@ -87,7 +87,7 @@
         Name="LOC_UNIT_TREASURE_SHIP_NAME"
         Description="LOC_UNIT_TREASURE_SHIP_DESCRIPTION"
         Icon="ICON_UNIT_TREASURE_SHIP"
-        SortIndex="2"/>
+        SortIndex="1"/>
     <!-- Expansion 2 Support -->
     <Row
         Domain="Players:Expansion2_Players"
@@ -97,7 +97,7 @@
         Name="LOC_BUILDING_TREASURE_SHIPYARD_NAME"
         Description="LOC_BUILDING_TREASURE_SHIPYARD_DESCRIPTION"
         Icon="ICON_BUILDING_TREASURE_SHIPYARD"
-        SortIndex="1"/>
+        SortIndex="2"/>
     <Row
         Domain="Players:Expansion2_Players"
         CivilizationType ="CIVILIZATION_CHINA"
@@ -106,7 +106,7 @@
         Name="LOC_UNIT_TREASURE_SHIP_NAME"
         Description="LOC_UNIT_TREASURE_SHIP_DESCRIPTION"
         Icon="ICON_UNIT_TREASURE_SHIP"
-        SortIndex="2"/>
+        SortIndex="1"/>
   </PlayerItems>
 
 
