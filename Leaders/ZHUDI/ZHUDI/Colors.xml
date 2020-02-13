@@ -15,7 +15,7 @@
   </Colors>
   <PlayerColors>
     <Row>
-      <Type>LEADER_Wuzetian</Type>
+      <Type>LEADER_ZHUDI</Type>
       <Usage>Unique</Usage>
       <PrimaryColor>COLOR_PLAYER_LEADER_ZHUDI_PRIMARY</PrimaryColor>
       <SecondaryColor>COLOR_PLAYER_LEADER_ZHUDI_SECONDARY</SecondaryColor>

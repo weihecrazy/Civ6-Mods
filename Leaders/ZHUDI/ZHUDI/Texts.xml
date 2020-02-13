@@ -15,12 +15,6 @@
       <Text>朱棣作为领袖时，每个巨作增加额外+2 [ICON_Culture] 文化值。每个海上国际商路获得+1 [ICON_Envoy] 使者和 [ICON_Gold] 金币。
       </Text>
     </Row>
-    <Row Tag="LOC_AGENDA_CRESADE_MGL_FIVE_NAME" Language="zh_Hans_CN">
-      <Text>五征漠北</Text>
-    </Row>
-    <Row Tag="LOC_AGENDA_CRESADE_MGL_FIVE_DESCRIPTION" Language="zh_Hans_CN">
-      <Text>朱棣为了彻底解决元朝的残余势力，从1410年（永乐八年）开始，朱棣亲自率领明军进行北伐。这次北伐，明军在飞云山大战中击破五万蒙古铁骑，蒙古本部的鞑靼向明朝称臣纳贡。五次北伐致使蒙古势力进一削弱，维护了明朝边境的安宁，后来朱棣亦在第五次亲征得胜回朝途中病逝。</Text>
-    </Row>
     <Row Tag="LOC_TRAIT_AGENDA_CRESADE_MGL_FIVE_DESCRIPTION" Language="zh_Hans_CN">
       <Text>对蒙古的不满+999</Text>
     </Row>
@@ -33,7 +27,13 @@
       <Text>宝船</Text>
     </Row>
     <Row Tag="LOC_UNIT_TREASURE_SHIP_DESCRIPTION" Language="zh_Hans_CN">
-      <Text>15世纪世界上最大的木质帆船，当之无愧的旗舰。有相邻的非宝船海军单位时+10 [ICON_Strength] 战斗力。</Text>
+      <Text>中世纪海军远程单位。15世纪世界上最大的木质帆船，巨大的体现能够承受更多的攻击，防御时+10 [ICON_Strength] 战斗力。</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TREASURE_SHIP_NAME" Language="zh_Hans_CN">
+      <Text>巨舰</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_TREASURE_SHIP_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>攻击时+10 [ICON_Strength] 战斗力。</Text>
     </Row>
     <!--BUILDINGS-->
     <Row Tag="LOC_BUILDING_TREASURE_SHIPYARD_NAME" Language="zh_Hans_CN">
@@ -41,12 +41,6 @@
     </Row>
     <Row Tag="LOC_BUILDING_TREASURE_SHIPYARD_DESCRIPTION" Language="zh_Hans_CN">
       <Text>生产宝船的造船厂，额外+1 [ICON_Production] 生产力和 [ICON_Gold] 金币。</Text>
-    </Row>
-    <Row Tag="LOC_BUILDING_DONGCHANG_NAME" Language="zh_Hans_CN">
-      <Text>东缉事厂</Text>
-    </Row>
-    <Row Tag="LOC_BUILDING_DONGCHANG_DESCRIPTION" Language="zh_Hans_CN">
-      <Text>朱棣作为领袖时，中国的特色建筑。代替情报局，增加间谍的反间谍能力。</Text>
     </Row>
   </LocalizedText>
 </GameData>

@@ -2,6 +2,7 @@
 <!-- Config -->
 <!-- Author: 57371 -->
 <!-- DateCreated: 2/11/2020 8:53:13 PM -->
+<!-- 2020年2月13日 更新：因为东厂data还存在bug，暂时删除-->
 <GameData>
   <Players>
     <Row
@@ -17,7 +18,7 @@
       LeaderIcon="ICON_LEADER_ZHUDI"
       LeaderName="LOC_LEADER_ZHUDI_NAME"
       LeaderType="LEADER_ZHUDI"
-      Portrait="IMG_LEADER_ZHUDI_PORTRAIT"/>
+      Portrait="PORTRAIT_ZHUDI"/>
     <!-- Expansion 1 Support -->
     <Row Domain="Players:Expansion1_Players"
       CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_EXPANSION1_DESCRIPTION"
@@ -32,8 +33,7 @@
       LeaderIcon="ICON_LEADER_ZHUDI"
       LeaderName="LOC_LEADER_ZHUDI_NAME"
       LeaderType="LEADER_ZHUDI"
-      Portrait=""/>
-    <!--IMG_LEADER_ZHUDI_PORTRAIT-->
+      Portrait="PORTRAIT_ZHUDI"/>
     <!-- Expansion 2 Support -->
     <Row Domain="Players:Expansion2_Players"
       CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_EXPANSION2_DESCRIPTION"
@@ -48,19 +48,18 @@
       LeaderIcon="ICON_LEADER_ZHUDI"
       LeaderName="LOC_LEADER_ZHUDI_NAME"
       LeaderType="LEADER_ZHUDI"
-      Portrait=""/>
-    <!--IMG_LEADER_ZHUDI_PORTRAIT-->
+      Portrait="PORTRAIT_ZHUDI"/>
   </Players>
   <!--CivilizationType ="CIVILIZATION_CHINA"-->
   <PlayerItems>
-    <Row
+    <!--  <Row
       CivilizationType ="CIVILIZATION_CHINA"
       LeaderType="LEADER_ZHUDI"
       Type="BUILDING_DONGCHANG"
       Name="LOC_BUILDING_DONGCHANG_NAME"
       Description="LOC_BUILDING_DONGCHANG_DESCRIPTION"
       Icon="ICON_BUILDING_DONGCHANG"
-      SortIndex="3"/>
+      SortIndex="3"/>-->
     <Row
       CivilizationType ="CIVILIZATION_CHINA"
       LeaderType="LEADER_ZHUDI"
@@ -78,7 +77,7 @@
       Icon="ICON_UNIT_TREASURE_SHIP"
       SortIndex="1"/>
     <!-- Expansion 1 Support -->
-    <Row
+    <!--  <Row
       Domain="Players:Expansion1_Players"
       CivilizationType ="CIVILIZATION_CHINA"
       LeaderType="LEADER_ZHUDI"
@@ -86,7 +85,7 @@
       Name="LOC_BUILDING_DONGCHANG_NAME"
       Description="LOC_BUILDING_DONGCHANG_DESCRIPTION"
       Icon="ICON_BUILDING_DONGCHANG"
-      SortIndex="3"/>
+      SortIndex="3"/> -->
     <Row
         Domain="Players:Expansion1_Players"
         CivilizationType ="CIVILIZATION_CHINA"
@@ -106,7 +105,7 @@
         Icon="ICON_UNIT_TREASURE_SHIP"
         SortIndex="1"/>
     <!-- Expansion 2 Support -->
-    <Row
+    <!--   <Row
       Domain="Players:Expansion2_Players"
       CivilizationType ="CIVILIZATION_CHINA"
       LeaderType="LEADER_ZHUDI"
@@ -114,7 +113,7 @@
       Name="LOC_BUILDING_DONGCHANG_NAME"
       Description="LOC_BUILDING_DONGCHANG_DESCRIPTION"
       Icon="ICON_BUILDING_DONGCHANG"
-      SortIndex="3"/>
+      SortIndex="3"/>-->
     <Row
         Domain="Players:Expansion2_Players"
         CivilizationType ="CIVILIZATION_CHINA"

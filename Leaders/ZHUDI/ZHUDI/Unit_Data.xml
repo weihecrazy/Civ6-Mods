@@ -28,14 +28,14 @@
   <!-- Define the actual unit here. For examples of additional properties and values, look at Units.xml in /Base/Assets/Gameplay/Data/-->
   <Units>
     <Row UnitType="UNIT_TREASURE_SHIP"
-         Cost="350"
+         Cost="330"
          Maintenance="6"
-         BaseMoves="5"
+         BaseMoves="4"
          BaseSightRange="2"
          ZoneOfControl="true"
          Domain="DOMAIN_SEA"
-         Combat="48"
-         RangedCombat="58"
+         Combat="45"
+         RangedCombat="50"
          Range="2"
          FormationClass="FORMATION_CLASS_NAVAL"
          PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT"
@@ -52,4 +52,8 @@
   <UnitUpgrades>
     <Row Unit="UNIT_TREASURE_SHIP" UpgradeUnit="UNIT_BATTLESHIP"/>
   </UnitUpgrades>
+
+  <UnitAbilities>
+    <Row UnitAbilityType="ABILITY_TREASURE_SHIP" Name="LOC_ABILITY_TREASURE_SHIP_NAME" Description="LOC_ABILITY_TREASURE_SHIP_DESCRIPTION"/>
+  </UnitAbilities>
 </GameData>

@@ -66,16 +66,20 @@
 			<m_ObjectName text="ICON_ZHUDI_80"/>
 		</Element>
 		<Element>
-			<m_EntryID text="PORTRAIT_TREASURE_SHIP_256"/>
-			<m_ObjectName text="PORTRAIT_TREASURE_SHIP_256"/>
+			<m_EntryID text="PORTRAIT_ZHUDI"/>
+			<m_ObjectName text="PORTRAIT_ZHUDI"/>
 		</Element>
 		<Element>
-			<m_EntryID text="PORTRAIT_TREASURE_SHIP_30"/>
-			<m_ObjectName text="PORTRAIT_TREASURE_SHIP_30"/>
+			<m_EntryID text="DEPLOMACY_BACKGROUND"/>
+			<m_ObjectName text="DEPLOMACY_BACKGROUND"/>
 		</Element>
 		<Element>
-			<m_EntryID text="PORTRAIT_TREASURE_SHIP_32"/>
-			<m_ObjectName text="PORTRAIT_TREASURE_SHIP_32"/>
+			<m_EntryID text="IMG_LOADING_FOREGROUND"/>
+			<m_ObjectName text="IMG_LOADING_FOREGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAIT_TREASURE_SHIP_200"/>
+			<m_ObjectName text="PORTRAIT_TREASURE_SHIP_200"/>
 		</Element>
 		<Element>
 			<m_EntryID text="PORTRAIT_TREASURE_SHIP_38"/>
@@ -90,8 +94,12 @@
 			<m_ObjectName text="PORTRAIT_TREASURE_SHIP_70"/>
 		</Element>
 		<Element>
-			<m_EntryID text="PORTRAIT_TREASURE_SHIP_80"/>
-			<m_ObjectName text="PORTRAIT_TREASURE_SHIP_80"/>
+			<m_EntryID text="PORTRAIT_TREASURE_SHIP_95"/>
+			<m_ObjectName text="PORTRAIT_TREASURE_SHIP_95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAIT_TREASURE_SHIP_256"/>
+			<m_ObjectName text="PORTRAIT_TREASURE_SHIP_256"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

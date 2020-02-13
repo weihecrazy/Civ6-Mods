@@ -19,16 +19,16 @@
     <AssemblyName>ZHUDI</AssemblyName>
     <RootNamespace>ZHUDI</RootNamespace>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="DATA"><File>Config.xml</File></UpdateDatabase><UpdateText id="TEXT"><File>Texts.xml</File></UpdateText><UpdateIcons id="ICON"><File>Icons.xml</File></UpdateIcons><UpdateArt id="ART"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="DATA"><File>Leader_Data.xml</File><File>Unit_Data.xml</File><File>Colors.xml</File><File>Building_Data_TreasureShipyard.xml</File></UpdateDatabase><UpdateIcons id="ICON"><File>Icons.xml</File></UpdateIcons><UpdateText id="TEXT"><File>Texts.xml</File></UpdateText><UpdateArt id="ART"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="DATA"><File>Leader_Data.xml</File><File>Unit_Data.xml</File><File>Colors.xml</File><File>Unit_Ability.sql</File><File>Building_Data.xml</File></UpdateDatabase><UpdateIcons id="ICON"><File>Icons.xml</File></UpdateIcons><UpdateText id="TEXT"><File>Texts.xml</File></UpdateText><UpdateArt id="ART"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="Mod.Art.xml" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Artdefs\Buildings.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Artdefs\FallbackLeaders.artdef">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Artdefs\Units.artdef">
@@ -49,7 +49,13 @@
     <Content Include="Leader_Data.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Mod.Art.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Texts.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Unit_Ability.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Unit_Data.xml">

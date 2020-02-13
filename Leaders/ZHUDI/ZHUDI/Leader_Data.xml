@@ -9,8 +9,6 @@
     <Row Type="TRAIT_LEADER_ZHUDI_YONGLE" Kind="KIND_TRAIT"/>
     <Row Type="TRAIT_CIVILIZATION_UNIT_TREASURE_SHIP" Kind="KIND_TRAIT"/>
     <Row Type="TRAIT_CIVILIZATION_BUILDING_TREASURE_SHIPYARD" Kind="KIND_TRAIT"/>
-    <Row Type="TRAIT_CIVILIZATION_BUILDING_DONGCHANG" Kind="KIND_TRAIT"/>
-    <Row Type="TRAIT_AGENDA_CRESADE_MGL_FIVE" Kind="KIND_TRAIT"/>
   </Types>
 
   <Leaders>
@@ -18,7 +16,6 @@
   </Leaders>
 
   <Traits>
-    <Row TraitType="TRAIT_AGENDA_CRESADE_MGL_FIVE" Name="LOC_TRAIT_AGENDA_CRESADE_MGL_FIVE_NAME" Description="LOC_TRAIT_AGENDA_CRESADE_MGL_FIVE_DESCRIPTION"/>
     <Row TraitType="TRAIT_LEADER_ZHUDI_YONGLE" Name="LOC_TRAIT_LEADER_ZHUDI_YONGLE_NAME" Description="LOC_TRAIT_LEADER_ZHUDI_YONGLE_DESCRIPTION"/>
     <Row TraitType="TRAIT_CIVILIZATION_UNIT_TREASURE_SHIP" Name="TRAIT_CIVILIZATION_UNIT_TREASURE_SHIP_NAME"/>
     <Row TraitType="TRAIT_CIVILIZATION_BUILDING_TREASURE_SHIPYARD" Name="TRAIT_CIVILIZATION_BUILDING_TREASURE_SHIPYARD_NAME"/>
@@ -30,35 +27,22 @@
     <Row LeaderType="LEADER_ZHUDI" TraitType="TRAIT_CIVILIZATION_BUILDING_TREASURE_SHIPYARD"/>
   </LeaderTraits>
 
-  <Agendas>
-    <Row AgendaType="AGENDA_CRESADE_MGL_FIVE" Name="LOC_AGENDA_CRESADE_MGL_FIVE_NAME" Description="LOC_AGENDA_CRESADE_MGL_FIVE_DESCRIPTION"/>
-  </Agendas>
-
-  <HistoricalAgendas>
-    <Row LeaderType="LEADER_ZHUDI" AgendaType="AGENDA_CRESADE_MGL_FIVE"/>
-  </HistoricalAgendas>
-
-  <AgendaTraits>
-    <Row AgendaType="AGENDA_CRESADE_MGL_FIVE" TraitType="TRAIT_AGENDA_CRESADE_MGL_FIVE"/>
-  </AgendaTraits>
-
   <!--宗教倾向-道教-->
   <FavoredReligions>
     <Row LeaderType="LEADER_ZHUDI" ReligionType="RELIGION_TAOISM"/>
   </FavoredReligions>
 
   <LoadingInfo>
-    <Row LeaderType="LEADER_ZHUDI"  PlayDawnOfManAudio="1" LeaderText="LOC_LOADING_INFO_LEADER_ZHUDI"/>
+    <Row LeaderType="LEADER_ZHUDI"  ForegroundImage="IMG_LOADING_FOREGROUND"
+         BackgroundImage="DEPLOMACY_BACKGROUND" PlayDawnOfManAudio="1" LeaderText="LOC_LOADING_INFO_LEADER_ZHUDI"/>
   </LoadingInfo>
-  <DiplomacyInfo>
-    <Row Type="LEADER_ZHUDI" BackgroundImage="DIPLOMACY_BACKGROUND.dds" ForegroundImage="DEPLOMACY_FOREGROUND.dds"/>
-  </DiplomacyInfo>
 
   <CivilizationLeaders>
     <Row CivilizationType="CIVILIZATION_CHINA" LeaderType="LEADER_ZHUDI" CapitalName="LOC_CITY_NAME_BEIJING"/>
   </CivilizationLeaders>
 
-  <ModifierStrings>
+  <DiplomacyInfo>
+    <Row Type="LEADER_ZHUDI" BackgroundImage="DEPLOMACY_BACKGROUND"/>
+  </DiplomacyInfo>
 
-  </ModifierStrings>
 </GameData>

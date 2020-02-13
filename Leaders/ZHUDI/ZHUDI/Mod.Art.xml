@@ -326,6 +326,7 @@
 		<Element>
 			<consumerName text="LeaderFallback"/>
 			<relativeArtDefPaths>
+				<Element text="FallbackLeaders.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="LeaderFallback"/>
@@ -470,6 +471,7 @@
 		<Element>
 			<libraryName text="LeaderFallback"/>
 			<relativePackagePaths>
+				<Element text="LeaderFallbacks"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
